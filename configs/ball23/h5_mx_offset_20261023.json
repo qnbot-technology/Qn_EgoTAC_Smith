@@ -1,0 +1,140 @@
+{
+  "schema": "qn_smith.hdf5_mx_ball23_offset.v1",
+  "name": "HDF5 MX glove Ball23 offset used by longtask_20261023-120720",
+  "status": "used_in_h5_full_regression_20261027_v7",
+  "units": "m",
+  "matrix_convention": "T_parent_child maps child into parent; column vectors",
+  "source_recording": {
+    "path": "data/longtask_20261023-120720.h5",
+    "sha256": "61d63753368be4f41b2ab5e20686dc53c8616ec90befb1ee9c3de3663198459a",
+    "frames": 589
+  },
+  "asset": {
+    "asset_id": "apriltag_emf_ball23",
+    "tag_size_m": 0.023,
+    "layout": "configs/ball23/layout-23mm-roi-candidate.json",
+    "layout_sha256": "1304814ef816f6c130efb59ae2ab43c11dde5f9c5531ff437cbb4dd0c93d2cbb",
+    "mount": "configs/ball23/mount.json",
+    "mount_sha256": "4394ac70e79964fbb3f2ddb148c8f4395e4f4b0318ca77ed5fcc220c93790f8d",
+    "cad_source_sha256": "9de0b3ed8c8f110f012af25d3d9a0774aafa2fb77cc30febc688b5807d352c4e"
+  },
+  "tag_binding": {
+    "left": {
+      "physical_anchor_tag_id": 3,
+      "local_layout_tag_id": 3,
+      "mount_description": "transmitter below Tag3-side face, fingertip direction"
+    },
+    "right": {
+      "physical_anchor_tag_id": 16,
+      "local_layout_tag_id": 3,
+      "mount_description": "transmitter below Tag16-side face, fingertip direction"
+    }
+  },
+  "axis_convention": {
+    "emf": {
+      "x": "toward fingertips",
+      "y": "toward left/thumb side",
+      "z": "up",
+      "handedness": "right"
+    },
+    "selected_yaw_degrees": 90,
+    "electrical_axes_verified": false,
+    "verification_note": "User-selected visual direction; inherited CAD candidate, not independent fixture metrology"
+  },
+  "transforms": {
+    "T_cad_bottom_emf_runtime": [
+      [
+        0.0,
+        -1.0,
+        0.0,
+        -7.709921875176828e-06
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.009628420688412458
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.007659115824879807
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_root_cad_bottom_registered": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_root_emf_registered": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.009628420688412458
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        7.70992187517351e-06
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.007659115824879807
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "application": {
+    "formula": "T_camera_emf = T_camera_tag @ T_root_tag @ T_root_emf_registered",
+    "tag_to_bottom_to_coil_applied_once": true,
+    "humanv2_points_frame": "EMF",
+    "humanv2_solver_to_emf": "identity",
+    "additional_vive_offset": false,
+    "additional_april1_offset": false,
+    "additional_11_72mm_fingertip_offset": false,
+    "do_not_apply_again": true
+  },
+  "quality": {
+    "training_ready": false,
+    "electrical_registration_verified": false,
+    "source_registration_status": "inherited mounting candidate; not independently remeasured",
+    "caveat": "This file reproduces the HDF5 MX baseline and is not an electrical ground-truth calibration."
+  }
+}

@@ -1,0 +1,12 @@
+h5py>=3.11,<4
+numpy>=2.2,<2.3
+Pillow>=10,<12
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+PyYAML>=6,<7
+scipy==1.15.3
+pin==3.9.0; sys_platform == 'linux'
+cmeel-boost==1.89.0; sys_platform == 'linux'
+cmeel-urdfdom==4.0.1; sys_platform == 'linux'
+cmeel-tinyxml2==10.0.0; sys_platform == 'linux'
+coal==3.0.2; sys_platform == 'linux'

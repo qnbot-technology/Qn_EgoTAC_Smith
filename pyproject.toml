@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "qn-ego-minimal"
+version = "0.1.0"
+description = "Source-bound HDF5/MCAP AprilTag, HumanV2, optional visual-root and tactile pipeline"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "wkz14", email = "wangkunze@qnbot.com"}]
+requires-python = ">=3.12,<3.13"
+dependencies = ["numpy>=1.26,<2", "scipy>=1.11,<1.15", "h5py>=3.10,<4", "opencv-contrib-python-headless==4.11.0.86", "Pillow>=10,<12", "matplotlib>=3.9,<3.10", "contourpy<1.4", "pyserial==3.5", "protobuf>=5,<7"]
+[project.scripts]
+qn-ego = "qn_ego.pipeline:main"
+[tool.setuptools.packages.find]
+where = ["src"]

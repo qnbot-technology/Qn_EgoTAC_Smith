@@ -1,0 +1,29 @@
+# 实验入口的算法参数；只覆盖独立 human_hand_v2_replay，不改变现有 SDK。
+human_hand_v2:
+  # 使用当前 OpenXR 个人骨长的米制尺寸，不缩放原始 EMF 观测。
+  geometry_scale: 1.0
+  optimize_wrist: true
+  position_sigma_m: 0.003
+  orientation_sigma_rad: 0.35
+  huber_sigma: 3.0
+  wrist_position_prior_sigma_m: 0.04
+  wrist_rotation_prior_sigma_rad: 0.5
+  joint_prior_sigma_rad: 2.0
+  joint_temporal_sigma_rad: 0.5
+  # One degree of reverse flexion costs eight normalized objective units.
+  hyperextension_sigma_rad: 0.00436332313
+  # Soft preference, measured from geometric extension neutral; thumb is excluded.
+  pip_dip_coupling_ratio: 0.65
+  pip_dip_coupling_sigma_rad: 0.35
+  # Retry fixed-wrist high-residual frames from one partially flexed joint seed.
+  enable_partial_flex_seed: true
+  wrist_temporal_position_sigma_m: 0.015
+  wrist_temporal_rotation_sigma_rad: 0.25
+  max_wrist_displacement_m: 0.08
+  max_wrist_rotation_rad: 0.9
+  max_iterations: 24
+  reset_gap_s: 0.25
+  # 这些阈值判断观测与模型一致性，不是独立定位精度指标。
+  max_tracking_rmse_m: 0.015
+  max_tracking_error_m: 0.035
+  max_tracking_orientation_rad: 1.2

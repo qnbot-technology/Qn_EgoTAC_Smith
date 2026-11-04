@@ -1,0 +1,11 @@
+HumanV2 proprietary component
+Copyright (c) Qnbot. All rights reserved.
+
+The HumanV2 executable, hand resources and configuration in this directory are
+not licensed under the repository's BSD 2-Clause License. No source-code license
+is granted. Use of this component is subject to authorization from its owner.
+Contact wangkunze@qnbot.com for permission and platform-specific runtime builds.
+
+Bundled third-party libraries retain their original licenses and notices in
+runtime/third_party_licenses. This notice does not restrict rights granted by
+those third-party licenses.

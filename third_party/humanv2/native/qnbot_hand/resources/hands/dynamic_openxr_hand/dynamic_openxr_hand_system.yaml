@@ -1,0 +1,363 @@
+# 可变骨长和掌面布局 OpenXR 人体手默认配置。
+# 模型提供左右手各 25 个主动自由度，并在运行时将同一组骨长同步应用到
+# Pinocchio 运动学模型和 MuJoCo 骨架/碰撞模型；wrist 到各指掌根保留默认布局。
+# 当前插件不注册真实硬件输出。
+
+
+retargeting:
+  # 算法层统一使用的语义手指顺序；具体手指在 hand.fingers 中映射到模型 link。
+  finger_order: [thumb, first, middle, ring, little]
+
+
+hand:
+  # 当前加载的手型插件名称。
+  type: dynamic_openxr_hand
+  # 调用方没有显式指定 side 时使用右手。
+  default_side: right
+  # 初始化运动学和关节正则参考值时使用的姿态名。
+  rest_pose: five_close
+  # 默认配置使用右手 wrist；构造左手时 kinematics 会按 side 读取 left_wrist。
+  wrist_link: right_wrist
+  # wrist frame 到算法掌根参考点的额外局部偏移。
+  wrist_offset: [0.0, 0.0, 0.0]
+  # 只使用视觉标定的手指骨长，wrist 与五指掌根布局保留资源默认值。
+  apply_calibrated_palm_layout: false
+  # 人体骨骼长度和掌面布局配置，所有数值单位均为米。
+  # 这里使用 YAML anchor，让 viewer 复用完全相同的一份配置；修改骨长时只改本段。
+  # 当前数值是已填写的人手参数；骨长或掌面布局变化后需要重新执行该手型标定。
+  anthropometry: &dynamic_openxr_anthropometry
+    # false 时完全保留资源文件中的原始骨长；true 时应用下方已填写的骨长。
+    enabled: true
+    # 手掌平面布局：该模型由上方策略禁用，保留字段供配置结构兼容。
+    # 单张俯视标定只能观测平面内位置；插件保留原模型各锚点的离平面高度、rpy 和 joint axis。
+    # 下方数值同时用于左右模型，插件会保留各侧原始的离平面高度、rpy 和 joint axis。
+    enabled: true
+    palm_layout:
+      enabled: true
+      coordinate_frame: wrist_x_toward_index_y_toward_middle
+      landmarks_m:
+        thumb_cmc:
+        - 0.0230298554
+        - 0.0245090464
+        first_mcp:
+        - 0.0267798759
+        - 0.0897253426
+        middle_mcp:
+        - 0.0061507271
+        - 0.0884641312
+        ring_mcp:
+        - -0.0167977329
+        - 0.0834196411
+        little_mcp:
+        - -0.0369832672
+        - 0.0740781995
+    fingers:
+      thumb:
+        distal: 0.0304639023
+        metacarpal: 0.0404059626
+        proximal: 0.0325167924
+      first:
+        distal: 0.0228213836
+        intermediate: 0.0282751937
+        metacarpal: 0.0737976059
+        proximal: 0.0432866775
+      middle:
+        distal: 0.0258923713
+        intermediate: 0.0332659818
+        metacarpal: 0.0708856061
+        proximal: 0.0431084894
+      ring:
+        distal: 0.0224302355
+        intermediate: 0.0284887794
+        metacarpal: 0.0659748912
+        proximal: 0.0403312035
+      little:
+        distal: 0.0180179402
+        intermediate: 0.0179786924
+        metacarpal: 0.0628556609
+        proximal: 0.0298742466
+  # 每根语义手指对应的模型指尖 link、接触点偏移和局部朝向轴。
+  fingers:
+    thumb:
+      # 拇指使用模型中已有的固定解剖学指尖 frame。
+      fingertip_link: right_thumb_tip
+      # SDK 语义层统一使用的拇指 frame 名。
+      fingertip_frame: thumb
+      # *_thumb_tip 已位于骨骼末端，不再附加额外指尖长度。
+      tip_offset: [0.0, 0.0, 0.0]
+      # 源模型指骨局部坐标中，指尖伸展方向对应 -x。
+      fingertip_direction_axis: -x
+      # 源模型指骨局部坐标中，指腹法向初值对应 +z。
+      fingertip_pad_axis: -y
+    first:
+      # 食指使用模型中已有的固定解剖学指尖 frame。
+      fingertip_link: right_index_tip
+      # SDK 将食指统一命名为 first。
+      fingertip_frame: first
+      # *_index_tip 已位于骨骼末端，不再附加额外指尖长度。
+      tip_offset: [0.0, 0.0, 0.0]
+      # 源模型指骨局部坐标中，指尖伸展方向对应 -x。
+      fingertip_direction_axis: -x
+      # 源模型指骨局部坐标中，指腹法向初值对应 -y。
+      fingertip_pad_axis: -y
+    middle:
+      # 中指使用模型中已有的固定解剖学指尖 frame。
+      fingertip_link: right_middle_tip
+      # SDK 语义层统一使用的中指 frame 名。
+      fingertip_frame: middle
+      # *_middle_tip 已位于骨骼末端，不再附加额外指尖长度。
+      tip_offset: [0.0, 0.0, 0.0]
+      # 源模型指骨局部坐标中，指尖伸展方向对应 -x。
+      fingertip_direction_axis: -x
+      # 源模型指骨局部坐标中，指腹法向初值对应 -y。
+      fingertip_pad_axis: -y
+    ring:
+      # 无名指使用模型中已有的固定解剖学指尖 frame。
+      fingertip_link: right_ring_tip
+      # SDK 语义层统一使用的无名指 frame 名。
+      fingertip_frame: ring
+      # *_ring_tip 已位于骨骼末端，不再附加额外指尖长度。
+      tip_offset: [0.0, 0.0, 0.0]
+      # 源模型指骨局部坐标中，指尖伸展方向对应 -x。
+      fingertip_direction_axis: -x
+      # 源模型指骨局部坐标中，指腹法向初值对应 -y。
+      fingertip_pad_axis: -y
+    little:
+      # 小指使用模型中已有的固定解剖学指尖 frame。
+      fingertip_link: right_little_tip
+      # SDK 语义层统一使用的小指 frame 名。
+      fingertip_frame: little
+      # *_little_tip 已位于骨骼末端，不再附加额外指尖长度。
+      tip_offset: [0.0, 0.0, 0.0]
+      # 源模型指骨局部坐标中，指尖伸展方向对应 -x。
+      fingertip_direction_axis: -x
+      # 源模型指骨局部坐标中，指腹法向初值对应 -y。
+      fingertip_pad_axis: -y
+
+
+tip_mapping:
+  right:
+    # 右手手套局部坐标到右手模型 wrist-local 坐标的旋转矩阵初值。
+    # 轴映射为 robot_x=-glove_z、robot_y=glove_y、robot_z=glove_x。
+    rotation_matrix:
+      - [0.0, 0.0, -1.0]
+      - [0.0, 1.0, 0.0]
+      - [1.0, 0.0, 0.0]
+    # 人手指尖坐标到模型局部目标点的整体尺度初值。
+    human_hand_scale: 1.0
+    # 缩放和旋转后统一叠加的掌根局部偏移，顺序为 [x, y, z]，单位 m。
+    palm_offset_local: [0.0, 0.0, 0.0]
+    dynamic_palm_offset_by_finger_plane:
+      enabled: false
+    # 手套传感器点到期望人手指尖点的局部偏移，单位 m。
+    input_tip_offset_local:
+      # 拇指传感器点局部偏移。
+      thumb: [0.005, 0.000, -0.010]
+      # 食指传感器点局部偏移。
+      first: [0.008, 0.0, -0.005]
+      # 中指传感器点局部偏移。
+      middle: [0.008, 0.000, -0.000]
+      # 无名指传感器点局部偏移。
+      ring: [0.008, 0.0, -0.005]
+      # 小指传感器点局部偏移。
+      little: [0.008, 0.0, -0.005]
+    # 拇指接近其他手指时使用的相对位置约束模型。
+    pinch_model:
+      # 是否启用 pinch loss。
+      enabled: true
+      # 参与 thumb-to-finger pinch 检测的候选手指。
+      candidate_fingers: [first, middle, ring, little]
+      # pinch 进入过渡区的外侧距离阈值，单位 m。
+      epsilon1_m: 0.04
+      # pinch 认为接触或贴近的内侧距离阈值，单位 m。
+      epsilon2_m: 0.02
+      # sigmoid 切换增益；越大，pinch/shape 权重切换越硬。
+      switch_gain: 300.0
+      # pinch 触发时，拇指 shape target 的退让比例。
+      thumb_compensation_weight: 0.9
+      # pinch 触发时，对指 shape target 的退让比例。
+      finger_compensation_weight: 0.1
+
+  left:
+    # 左手手套局部坐标到左手模型 wrist-local 坐标的旋转矩阵初值。
+    # OpenXR 左手 wrist frame 与手套左手 frame 的镜像轴不同，不能复用右手矩阵。
+    # 轴映射为 robot_x=glove_z、robot_y=-glove_y、robot_z=glove_x。
+    rotation_matrix:
+      - [0.0, 0.0, 1.0]
+      - [0.0, -1.0, 0.0]
+      - [1.0, 0.0, 0.0]
+    # 人手指尖坐标到模型局部目标点的整体尺度初值。
+    human_hand_scale: 1.0
+    # 缩放和旋转后统一叠加的掌根局部偏移，顺序为 [x, y, z]，单位 m。
+    palm_offset_local: [0.0, 0.0, 0.0]
+    dynamic_palm_offset_by_finger_plane:
+      enabled: false
+    # 手套传感器点到期望人手指尖点的局部偏移，单位 m。
+    input_tip_offset_local:
+      # 拇指传感器点局部偏移。
+      thumb: [0.005, 0.000, -0.010]
+      # 食指传感器点局部偏移。
+      first: [0.008, 0.0, -0.01]
+      # 中指传感器点局部偏移。
+      middle: [0.008, 0.000, -0.01]
+      # 无名指传感器点局部偏移。
+      ring: [0.008, 0.0, -0.01]
+      # 小指传感器点局部偏移。
+      little: [0.008, 0.0, -0.01]
+    # 拇指接近其他手指时使用的相对位置约束模型。
+    pinch_model:
+      # 是否启用 pinch loss。
+      enabled: true
+      # 参与 thumb-to-finger pinch 检测的候选手指。
+      candidate_fingers: [first, middle, ring, little]
+      # pinch 进入过渡区的外侧距离阈值，单位 m。
+      epsilon1_m: 0.04
+      # pinch 认为接触或贴近的内侧距离阈值，单位 m。
+      epsilon2_m: 0.02
+      # sigmoid 切换增益；越大，pinch/shape 权重切换越硬。
+      switch_gain: 300.0
+      # pinch 触发时，拇指 shape target 的退让比例。
+      thumb_compensation_weight: 0.9
+      # pinch 触发时，对指 shape target 的退让比例。
+      finger_compensation_weight: 0.1
+
+
+solver:
+  # 非线性最小二乘中各项 loss 的基础权重。
+  weights:
+    # wrist 到五个 fingertip 的整体形状向量损失权重。
+    shape: 20.0
+    # thumb 到候选手指的相对向量 pinch 损失权重。
+    pinch: 1.0
+    # anchored 模式会根据 thumb/finger 的 shape slack 分配 pinch 补偿责任。
+    pinch_mode: anchored
+    # pinch 两侧 shape slack 都接近零时，分配给 thumb 的默认锚点压力比例。
+    pinch_thumb_anchor_ratio: 0.7
+    # 五个指尖姿态损失的全局基础权重。
+    orientation: 0.0005
+    # 每根手指的姿态损失倍率。
+    orientation_by_finger:
+      thumb: 25
+      first: 50.0
+      middle: 50
+      ring: 80
+      little: 100.0
+    # 姿态损失中局部 x/y/z 轴的权重。
+    orientation_axis_weights:
+      x: 1.0
+      y: 0.5
+      z: 0.5
+    # 每个 thumb-to-finger pinch pair 的额外权重。
+    pinch_by_finger:
+      first: 5.0
+      middle: 10.0
+      ring: 10.0
+      little: 8.0
+  # Gauss-Newton 优化器参数。
+  optimizer:
+    # 每帧允许执行的最大 GN 迭代次数。
+    gn_max_iters: 8
+    # cost 变化收敛阈值。
+    ftol: 0.000001
+    # 优化变量步长收敛阈值。
+    xtol: 0.000001
+    # 梯度收敛阈值。
+    gtol: 0.000001
+  # 关节位置相对 rest/current prior 的正则项。
+  joint_regularization:
+    # 未单独配置某个关节时使用的默认位置正则权重。
+    default_weight: 0.001
+  # 参考 wuji_hand2：四指 DIP/PIP 之间的弱软联动。
+  # 只引导同一手指的 DIP 与 PIP 同向弯曲，不锁死 dynamic OpenXR 的独立自由度。
+  # 未带左右前缀的名称会由 solver 按当前 side 自动映射到 right_/left_ 关节。
+  joint_coupling_regularization:
+    - joint_a: index_dip_flexion
+      joint_b: index_pip_flexion
+      weight: 0.0008
+      offset: 0.0
+    - joint_a: middle_dip_flexion
+      joint_b: middle_pip_flexion
+      weight: 0.0008
+      offset: 0.0
+    - joint_a: ring_dip_flexion
+      joint_b: ring_pip_flexion
+      weight: 0.0008
+      offset: 0.0
+    - joint_a: little_dip_flexion
+      joint_b: little_pip_flexion
+      weight: 0.0008
+      offset: 0.0
+  # 深度弯曲时，抑制 MCP flex 驱动 MCP abd 偏移的耦合正则项。
+  deep_flex_regularization:
+    # 进入深度弯曲正则的起始弧度阈值。
+    start_rad: 0.0
+    # 认为完全进入深度弯曲的弧度阈值。
+    full_rad: 0.85
+    # 正则权重。
+    weight: 0.1
+    # 使用不带左右前缀的关节名，solver 会自动映射实际 side。
+    pairs:
+      - driver_joint: index_mcp_flexion
+        controlled_joint: index_mcp_abduction
+        target_rad: 0.0
+      - driver_joint: middle_mcp_flexion
+        controlled_joint: middle_mcp_abduction
+        target_rad: 0.0
+      - driver_joint: ring_mcp_flexion
+        controlled_joint: ring_mcp_abduction
+        target_rad: 0.0
+
+      - driver_joint: little_mcp_flexion
+        controlled_joint: little_mcp_abduction
+        target_rad: 0.0
+      # 只在 PIP 进入真正握拳后回正小指掌骨，避免影响 mcp90。
+      - driver_joint: little_pip_flexion
+        controlled_joint: little_cmc_opposition
+        target_rad: 0.26
+  # 关节速度及相邻帧输出变化的正则项。
+  velocity_regularization:
+    # 当前设为零，不额外惩罚相邻帧的关节变化。
+    default_weight: 0.00000
+    by_joint:
+      left_ring_mcp_abduction: 0.0
+      right_ring_mcp_abduction: 0.0
+
+  # 掌心—掌背方向（近似手腕局部 X 轴）的指尖误差超阈值时，从 open 初值和正则参考重解并采用结果。
+  # 主要用于从握拳返回伸直后仍停留在错误局部解的情况。
+  error_reseed:
+    enabled: true
+    # 最大 X 轴绝对位置误差超过 80 mm 触发，忽略 Y/Z 位置误差；每帧独立判断。
+    shape_max_threshold_m: 0.08
+    # 任一模型指尖语义 X 轴与传感器映射后的目标 X 轴夹角超过 100 度也触发。
+    # 比较时都位于 wrist 局部坐标系；此处是指尖朝向轴，不是 wrist 的 X 位置轴。
+    tip_x_axis_threshold_deg: 100.0
+
+joint_smoother:
+  # 是否对 solver 输出执行一阶低通滤波。
+  enabled: true
+  # 一阶滤波系数；越大越跟手，越小越平滑。
+  alpha: 0.65
+  # 小于该弧度变化量的输出会被抑制。
+  deadband_rad: 0.0
+
+
+viewer:
+  # 当前 SDK 的 viewer factory 只接收 viewer 段，因此通过 YAML anchor 复用上面的结构参数。
+  # 不要在这里复制一套数值，避免 Pinocchio 与 MuJoCo 使用不同几何。
+  anthropometry: *dynamic_openxr_anthropometry
+  # 本地交互运行默认不强制开启物理碰撞。
+  physics_enabled: true
+  # hand.xml 的 timestep 为 0.008 s；每个输入帧执行一步。
+  physics_steps_per_render: 1
+  # 每帧清除残余速度，避免实时目标变化时积累抖动。
+  physics_reset_qvel: true
+  # 使用与固定 OpenXR 手一致的低开销接触求解参数。
+  physics_iterations: 3
+  physics_ls_iterations: 3
+  render_sensor_points: true
+  render_sensor_axes: false
+
+
+qnbot_sdk:
+  # 对外 algorithm wheel 默认返回 MuJoCo 碰撞修正后的关节角。
+  physics_enabled: true

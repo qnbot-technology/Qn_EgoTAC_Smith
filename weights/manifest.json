@@ -1,0 +1,32 @@
+[
+  {
+    "path": "weights/hawor/checkpoints/hawor.ckpt",
+    "bytes": 3267481572,
+    "sha256": "4d1cc43853c190d6f2c10d9b6295c73109f0faf9ef41ac817a2b31d94b4823f2"
+  },
+  {
+    "path": "weights/hawor/model_config.yaml",
+    "bytes": 2743,
+    "sha256": "edfe12dc14ce371d698da722b59acfed5b4a38a7f8f5116cbc1fce459a07dd2d"
+  },
+  {
+    "path": "weights/mano/data/mano/MANO_RIGHT.pkl",
+    "bytes": 3821356,
+    "sha256": "45d60aa3b27ef9107a7afd4e00808f307fd91111e1cfa35afd5c4a62de264767"
+  },
+  {
+    "path": "weights/mano/data/mano_mean_params.npz",
+    "bytes": 1178,
+    "sha256": "efc0ec58e4a5cef78f3abfb4e8f91623b8950be9eff8b8e0dbb0d036ebc63988"
+  },
+  {
+    "path": "weights/mano/data_left/mano_left/MANO_LEFT.pkl",
+    "bytes": 3821391,
+    "sha256": "c4022f7083f2ca7c78b2b3d595abbab52debd32b09d372b16923a801f0ea6a30"
+  },
+  {
+    "path": "weights/sam3/sam3.pt",
+    "bytes": 3450062241,
+    "sha256": "9999e2341ceef5e136daa386eecb55cb414446a00ac2b55eb2dfd2f7c3cf8c9e"
+  }
+]
