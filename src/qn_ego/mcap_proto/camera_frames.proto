@@ -1,0 +1,4 @@
+syntax = "proto3";
+package qnbot.camera.v1;
+message ImageFrame { string encoding = 1; uint32 width = 2; uint32 height = 3; uint32 row_stride_bytes = 4; bytes data = 5; optional double depth_scale_m = 6; bytes metadata = 7; map<int32, int64> metadata_values = 8; }
+message MotionSample { double x = 1; double y = 2; double z = 3; optional double temperature_c = 4; bytes metadata = 5; map<int32, int64> metadata_values = 6; }

@@ -1,0 +1,1106 @@
+{
+  "platform": "linux-x86_64",
+  "build": "Release, stripped; GCC 13.3; Pinocchio 4.1.0",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 575,
+      "sha256": "6989baa812e64a6b6140aff2d35dac86d87397b049d973abc90997125865f9fd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1466,
+      "sha256": "a76e821fb30b1c2ce6dab8b6b36ba7f99563dc2fcdd9a6ce241f99d87c9f2057"
+    },
+    {
+      "path": "common.py",
+      "bytes": 1732,
+      "sha256": "ef0a874808e69bcbad9950ce0705d234d11052f96c4a77477b10ba59522e5dac"
+    },
+    {
+      "path": "native/qnbot_hand/configs/human_hand_v2_options.yaml",
+      "bytes": 1193,
+      "sha256": "b42f750245a4e949bb16292a16b7e53eca4e9561e00e9a831c972e2d042223a9"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/dynamic_openxr_hand_system.yaml",
+      "bytes": 14650,
+      "sha256": "e3d6b7d0f1109e113b819541c9fd291e00491763850e9e6e2f2c12119c925666"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/pose_library.yaml",
+      "bytes": 7309,
+      "sha256": "e630200cfc0dcde62e4ffbd577851f6a44191bb4d112358cb696d8ff48b3db38"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/collision/index_distal.obj",
+      "bytes": 4361,
+      "sha256": "91b056e05c2d8f7eeccf58d5335a3f2b3b5d5330e28be4288037279a3080cbb8"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/collision/index_intermediate.obj",
+      "bytes": 3133,
+      "sha256": "7148d5dc7f0735f4c4df13267a82ac9fa269daceeda1267436d0d04530a6f0f6"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/collision/index_metacarpal.obj",
+      "bytes": 2437,
+      "sha256": "f21037614b05e9284aaa040ea1a7cf7a208905b8a530cdcacc3c4385b368fe51"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/collision/index_proximal.obj",
+      "bytes": 2564,
+      "sha256": "b3c24349e69b4770d59be753c182b4fefcb99dd795eadd712a1af2ebfec9edff"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/collision/little_distal.obj",
+      "bytes": 4929,
+      "sha256": "8981f6a6628578640076230e3d06201e72d0cbbab024a9855a4e748b58297306"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/collision/little_intermediate.obj",
+      "bytes": 3903,
+      "sha256": "c5cb15c950f4c62799daccac0e85e9c1b1e0b12dbedc7e8adc5c03e3fd593e94"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/collision/little_metacarpal.obj",
+      "bytes": 3051,
+      "sha256": "4964868225230a6b1d0ae29aa67e8a7df52521ce95f291effc1871922cb3e156"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/collision/little_proximal.obj",
+      "bytes": 1860,
+      "sha256": "6aaa8b8ff953f3ff3c0e7818d1f42ab767907493a2ecd1cde56983a4b784943c"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/collision/middle_distal.obj",
+      "bytes": 4395,
+      "sha256": "2055c5f91046d74e978828add959f49e9079e5733c20ec6425210546a799cb5d"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/collision/middle_intermediate.obj",
+      "bytes": 3187,
+      "sha256": "9f2b1fec0dd73778ace88a4c59f17687924f4f8a5239ada5cdea9451de7449dd"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/collision/middle_metacarpal.obj",
+      "bytes": 3195,
+      "sha256": "924a669ea0a6dd3ee8780d023d60393824c13d494b82a243eb346fdc5cee8c33"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/collision/middle_proximal.obj",
+      "bytes": 2328,
+      "sha256": "d74ae2bcb2f41bd318061781ea0ec6827325674381f3b26264abc22f81b5e700"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/collision/ring_distal.obj",
+      "bytes": 4231,
+      "sha256": "1fceecbb1b73f3eb3d6cf81ad0e3db184908c0be35ada4f92fe93cea789d1bc4"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/collision/ring_intermediate.obj",
+      "bytes": 3664,
+      "sha256": "b389d3d14478ef7e03985fcf3b2180af60e3111635446330a84d893304cd796d"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/collision/ring_metacarpal.obj",
+      "bytes": 2441,
+      "sha256": "c582ff7e66c53a05d3ae28a005d15f5b7c6ebd43ff57a31816b280a070ea34c7"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/collision/ring_proximal.obj",
+      "bytes": 2157,
+      "sha256": "e9e2da701b2295aa74cc6917334aa3f640b949f975790a95713f1b82708f0266"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/collision/thumb_distal.obj",
+      "bytes": 3984,
+      "sha256": "c9765c3443d25450b4d4d86768d0041f15aa0f778baa12eb3f94d31cfb950400"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/collision/thumb_metacarpal.obj",
+      "bytes": 3014,
+      "sha256": "981c20c1f88a58ab5446fbc1a2539b2923de1a6441058b59272b41beb0bb881c"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/collision/thumb_proximal.obj",
+      "bytes": 2261,
+      "sha256": "4bb1aab30a3baa99d5237fd18e059410fbe0efb892ea2582c8c9c2bfefcd1d06"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/collision/wrist.obj",
+      "bytes": 6347,
+      "sha256": "5cb918a71cc17c45b1a234de325382fa2bc2a040b47a1dd55b74a0f08728b3ee"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/visual/index_distal.obj",
+      "bytes": 53338,
+      "sha256": "8bd8a765d5a3f44741b05ecfe3fe4c25eb5c6b7595e84747c1b1bf9f7acd105f"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/visual/index_intermediate.obj",
+      "bytes": 36376,
+      "sha256": "9b15d3e469d396a0021ec3649b61507def816d141f57656b6c7de521afb912f7"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/visual/index_metacarpal.obj",
+      "bytes": 52543,
+      "sha256": "cb69ddaec1d0fc2048c5134d4e29d04627041ce5986880032f550c6027ea1383"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/visual/index_proximal.obj",
+      "bytes": 85653,
+      "sha256": "d628215a5ab45696de9cb80072f1bfcd092f99d22959922af8a019c6afc8073b"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/visual/left_hand_hd.skn",
+      "bytes": 899336,
+      "sha256": "d55ec25b28389d9c69cef6204b9fbec37ce6d3852cd9ebb3e80f6ab464f28b44"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/visual/little_distal.obj",
+      "bytes": 56912,
+      "sha256": "ff0bb1347c52155fa6ab798c421ae5a09dae8376c854c7720ec0dab142cacc9a"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/visual/little_intermediate.obj",
+      "bytes": 52193,
+      "sha256": "06d94bed045d04879bc627e65233c6b6c06dae25b90de0f7d0c814dd78f25d0a"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/visual/little_metacarpal.obj",
+      "bytes": 61563,
+      "sha256": "ed386b43b842302208aaa091eaa74053e93e2bcec36631c63dc9d10d894a9b2c"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/visual/little_proximal.obj",
+      "bytes": 52940,
+      "sha256": "c946299773859d1a76ce25f8580ebe1c2881c6fc31fcd1735f8c9024d760bd0b"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/visual/middle_distal.obj",
+      "bytes": 53502,
+      "sha256": "4c3fa797734aa16501cabd00d0cbd969f3f70090bbd44ed79195ba286c791418"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/visual/middle_intermediate.obj",
+      "bytes": 40832,
+      "sha256": "ad47faace361be01740e7d683dc63e15c323576e7f21259d1b54a40e5e98b295"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/visual/middle_metacarpal.obj",
+      "bytes": 37991,
+      "sha256": "80e4252a66384f2081d2b0d2ad258b2a2ca1019f67a000dd01f2d89d2464e02a"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/visual/middle_proximal.obj",
+      "bytes": 66962,
+      "sha256": "59749db714e49c097f5a9c0f9e3520c5a357756caa015830626f8c9564a332cc"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/visual/ring_distal.obj",
+      "bytes": 51220,
+      "sha256": "d63645c4a9c5b0bdbbaf2754652cb971e33cb9e459957a3ab5f7f61aae0b7501"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/visual/ring_intermediate.obj",
+      "bytes": 60683,
+      "sha256": "0d65d925c18d4b55c6f8852a65e0a21156b301f7bd9b518dfb918808cfe6dd9b"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/visual/ring_metacarpal.obj",
+      "bytes": 38373,
+      "sha256": "ab492177d8193a9a280c3d623de9288ce1386eb07fdc7b7fd33adba1e283cb81"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/visual/ring_proximal.obj",
+      "bytes": 55342,
+      "sha256": "c2830037d720da3d61d2e1d1c9f9d6bd778282f3e3ad026c88a461f7e79cdbb0"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/visual/thumb_distal.obj",
+      "bytes": 54514,
+      "sha256": "5f44c268644e26665ec8f989fa5f61f1f0a70c317c227d8d43de7df52d4314a6"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/visual/thumb_metacarpal.obj",
+      "bytes": 59936,
+      "sha256": "fe71bca4f997fc1ca6fcb89b1252947e8244a39e6742b8fb6764c1bad65e31fd"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/visual/thumb_proximal.obj",
+      "bytes": 35277,
+      "sha256": "f906b363fe18974f596ef8b029d09d1b6c1675cb6523e755da3f4c4d3de7dcfc"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/left/visual/wrist.obj",
+      "bytes": 221760,
+      "sha256": "882c733bf5e97ada24d8a8d7e45fa66841b4f44e6a22ed9310c6ac0b99a38e81"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/collision/index_distal.obj",
+      "bytes": 4407,
+      "sha256": "ae15849c0d529d3732e556cba126da3353b1b6c119a69721cf0bcd4d618af619"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/collision/index_intermediate.obj",
+      "bytes": 3181,
+      "sha256": "7369186bfd0f382c8618f1aa9f37c920260899a2d8bb99c0e673a489db05bf0c"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/collision/index_metacarpal.obj",
+      "bytes": 2472,
+      "sha256": "711a12552673adec3a60b34381ab803975204f52e6f3a63de611242d8e5ee8f1"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/collision/index_proximal.obj",
+      "bytes": 2646,
+      "sha256": "19801604a07e823497a78d43e11d4228b30fe48e10826269537388a87cb36b81"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/collision/little_distal.obj",
+      "bytes": 5005,
+      "sha256": "2d3ede56ff856acd2c0893f61a8d53c8a061446ea18146f04746a148c9e45df7"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/collision/little_intermediate.obj",
+      "bytes": 3929,
+      "sha256": "0717c84d766bde1f8221affc89b0f48c6432be8217dd1ec9914ab00fe7f3043d"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/collision/little_metacarpal.obj",
+      "bytes": 3140,
+      "sha256": "1ad7699c9975cafc9c0f730ba4c00bc5285a6aa6e27c2275d413374f60de1985"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/collision/little_proximal.obj",
+      "bytes": 1896,
+      "sha256": "e88146a115d867aa0f467973150baafb27a45004357a586ba4c500ece005beef"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/collision/middle_distal.obj",
+      "bytes": 4473,
+      "sha256": "e150181790fe081f7dc8af64f584a4652d4386958dd857b74fb13c430dc86502"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/collision/middle_intermediate.obj",
+      "bytes": 3176,
+      "sha256": "18dd2f64546712f12ae2875eeeb917e8fb0c17529b5c0f383f1a2fe94db2ab9e"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/collision/middle_metacarpal.obj",
+      "bytes": 3243,
+      "sha256": "551da90c275b54385661bacc653cafe8e4ada8cd60c2d919d487b7b3a2ee08af"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/collision/middle_proximal.obj",
+      "bytes": 2242,
+      "sha256": "d14b87410a9e43857c92f7b331caa15056ab181ca3ffbeff8f3b2d3859dca531"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/collision/ring_distal.obj",
+      "bytes": 4311,
+      "sha256": "d84e2b8497abcfd77b2c19047b605382e1d3651c354b7cbadf030ccd77df0dc8"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/collision/ring_intermediate.obj",
+      "bytes": 3655,
+      "sha256": "db55ac021b22e0a5d4da90e45214213abd032a6857e1c303766e6b116f725170"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/collision/ring_metacarpal.obj",
+      "bytes": 2476,
+      "sha256": "f827d369ccc9629ce3cf26fdb6502ca52e10be551e0eb306cfdd8ef1e228e1d3"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/collision/ring_proximal.obj",
+      "bytes": 2190,
+      "sha256": "2b58c536d0d535ba55b3a3c07a979a6b930d5306da4d6ad76d08290d384c21f1"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/collision/thumb_distal.obj",
+      "bytes": 4091,
+      "sha256": "484151c704c019b2ff9ac4afdd99df9f382ff4f1eb66b4b8fa167b74871bd64a"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/collision/thumb_metacarpal.obj",
+      "bytes": 3055,
+      "sha256": "7d2661e438a72dcb7688cae2a98795db9550c446ba1c6a5227f397d8e13bfe94"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/collision/thumb_proximal.obj",
+      "bytes": 2298,
+      "sha256": "8d1923c380611f31c07d1c9b4c805908220a63d260bc896a00baf9aedcfc4084"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/collision/wrist.obj",
+      "bytes": 6570,
+      "sha256": "6c1921aa1944049ea68a4c573b4c034d0dc118a0fe2aa62a556ce95f88aa7005"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/visual/index_distal.obj",
+      "bytes": 53948,
+      "sha256": "ff0b1bf2a71ff4be259ed3a746bc9855e03eba97c08f19f1ab9c8e9f5d753608"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/visual/index_intermediate.obj",
+      "bytes": 36818,
+      "sha256": "306dbed3251ba0f31428ee59d7b20ded996ab68e5c1eddd0c112bfce828b6e92"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/visual/index_metacarpal.obj",
+      "bytes": 52809,
+      "sha256": "89b7d1dcddd137e7238293d1cec8ca18149bda492221f8bdec5d9ef556ff451e"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/visual/index_proximal.obj",
+      "bytes": 86704,
+      "sha256": "f4db360f290d59942adc009cab4dc2130fc0ef434a73b7a4ad8bd798b557d04c"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/visual/little_distal.obj",
+      "bytes": 57730,
+      "sha256": "51ad0d35704163959ea7a98a1fac7498aa9d99921c2cde0d32b3594ae5c2b011"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/visual/little_intermediate.obj",
+      "bytes": 52293,
+      "sha256": "4d7ece4a9db3e416f739b022863ba887ca336026fcefe9b0ceb33a0dc2945d05"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/visual/little_metacarpal.obj",
+      "bytes": 63035,
+      "sha256": "e86475e21c134ad9964c6de5d3a31b450ce4707cea563277008953b0d3566201"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/visual/little_proximal.obj",
+      "bytes": 53580,
+      "sha256": "2d9b92ea0407bdb7c2fbff6d05f44802a15329bb23927c6c9436f0bcb2056dd0"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/visual/middle_distal.obj",
+      "bytes": 54288,
+      "sha256": "dc4da4dbfcccda62c4b46032b396cbc673f1381955f92519e1fc026e45e76ef3"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/visual/middle_intermediate.obj",
+      "bytes": 40722,
+      "sha256": "eac8dda7c2f70a007c857c737388528b436de126bd91c5f5e1464a3f8cd8c73a"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/visual/middle_metacarpal.obj",
+      "bytes": 38293,
+      "sha256": "0734788304bda28bc8c5a0e27723047e16cbfe8b236de7c5860af17ef4c7b716"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/visual/middle_proximal.obj",
+      "bytes": 68010,
+      "sha256": "ef847dbfa5158c532cdee40dee0401f5f06b01085daf846290d33889ad04894e"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/visual/right_hand_hd.skn",
+      "bytes": 899312,
+      "sha256": "5a48c5311f699de82233df8f4740e699b1ffe07bd8630c17adb488c5e0f6cf2f"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/visual/ring_distal.obj",
+      "bytes": 52287,
+      "sha256": "0214fc171dea494a2bd7cd4324bdd236cecfbb07c86ab141ccbeb2afd419528a"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/visual/ring_intermediate.obj",
+      "bytes": 60875,
+      "sha256": "fd237c7deb2e7f0015ff1e8eafd9fb19a5182065dc0cef5465a20169d99e3ecc"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/visual/ring_metacarpal.obj",
+      "bytes": 38917,
+      "sha256": "bbeb61793f27e6d8438a0bcc2472f49e455e6a31274b6acd6b128e386c42aedc"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/visual/ring_proximal.obj",
+      "bytes": 56092,
+      "sha256": "0aadf5847cb4e61d201bc09ed5620f7822e9bb7a535d15b9b521a1e54f0da1c9"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/visual/thumb_distal.obj",
+      "bytes": 55503,
+      "sha256": "47106c0813d1d243c9707eb977d1c2b7a241407659d43ec15e83e863dbe7cd4f"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/visual/thumb_metacarpal.obj",
+      "bytes": 60833,
+      "sha256": "f3f7f5486f888524421c210ee5ea395b7b1ce061596f121ebb3d2c12076d9d83"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/visual/thumb_proximal.obj",
+      "bytes": 35315,
+      "sha256": "6e9091430d264787ed74c6b8d512303df4226db6b24ed6e41e3d4c88a4adf28e"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/meshes/right/visual/wrist.obj",
+      "bytes": 191079,
+      "sha256": "043abda5386f5927498654f3bb548d02b709fffcb161674382563008d6dd7dff"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/mujoco/left.xml",
+      "bytes": 29127,
+      "sha256": "bcba2eb51722ff7ede3f1418386670573e7cc5385b02d9c17717dad62c42b3cf"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/mujoco/left_skeleton.xml",
+      "bytes": 32969,
+      "sha256": "55cfe307a8b9e04a35ca28986adfd40f2cda8c3f6f15f7b11350464e93d5166f"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/mujoco/right.xml",
+      "bytes": 29483,
+      "sha256": "ad1acad22dd785972898fe6f52571e2ad33c5febb2d28946258c018914a4a60d"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/mujoco/right_skeleton.xml",
+      "bytes": 33873,
+      "sha256": "1872ad6cec00eaadaf173c14d4b5a1c46096bfe6d44dbda657cfb8727d170a25"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/pinocchio/left.urdf",
+      "bytes": 29090,
+      "sha256": "a5aa0cc5b2580333209eabd006ab0549ef055bc8929906b7f989806a07402ee9"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/pinocchio/left_skeleton.urdf",
+      "bytes": 29329,
+      "sha256": "ca0982e32d388d10e25fea5a93d86bcdc444bb0208fdd23cdb014c13dfcbf51c"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/pinocchio/metadata.yaml",
+      "bytes": 7106,
+      "sha256": "d5db1a575e6b6876b9213f86a5f3d566f4c68c83395e1368e48c7e0ad89b30b2"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/pinocchio/right.urdf",
+      "bytes": 29333,
+      "sha256": "786faaef432b1f6c780cc03961bf90f9da76ab95e7c2342ae1f1d8dfce1565d2"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_hand/resources/pinocchio/right_skeleton.urdf",
+      "bytes": 30629,
+      "sha256": "6765072368fd645b1fc362f12ac0c232d279487e9b7e31f593ad457b5a57379e"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/dynamic_openxr_skeleton_hand_system.yaml",
+      "bytes": 14387,
+      "sha256": "dbfb0534f4ad3dcdfc9853f5420425faad6ed5cb7a77027df9391e549a5b7149"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/pose_library.yaml",
+      "bytes": 7309,
+      "sha256": "e630200cfc0dcde62e4ffbd577851f6a44191bb4d112358cb696d8ff48b3db38"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/collision/index_distal.obj",
+      "bytes": 4361,
+      "sha256": "91b056e05c2d8f7eeccf58d5335a3f2b3b5d5330e28be4288037279a3080cbb8"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/collision/index_intermediate.obj",
+      "bytes": 3133,
+      "sha256": "7148d5dc7f0735f4c4df13267a82ac9fa269daceeda1267436d0d04530a6f0f6"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/collision/index_metacarpal.obj",
+      "bytes": 2437,
+      "sha256": "f21037614b05e9284aaa040ea1a7cf7a208905b8a530cdcacc3c4385b368fe51"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/collision/index_proximal.obj",
+      "bytes": 2564,
+      "sha256": "b3c24349e69b4770d59be753c182b4fefcb99dd795eadd712a1af2ebfec9edff"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/collision/little_distal.obj",
+      "bytes": 4929,
+      "sha256": "8981f6a6628578640076230e3d06201e72d0cbbab024a9855a4e748b58297306"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/collision/little_intermediate.obj",
+      "bytes": 3903,
+      "sha256": "c5cb15c950f4c62799daccac0e85e9c1b1e0b12dbedc7e8adc5c03e3fd593e94"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/collision/little_metacarpal.obj",
+      "bytes": 3051,
+      "sha256": "4964868225230a6b1d0ae29aa67e8a7df52521ce95f291effc1871922cb3e156"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/collision/little_proximal.obj",
+      "bytes": 1860,
+      "sha256": "6aaa8b8ff953f3ff3c0e7818d1f42ab767907493a2ecd1cde56983a4b784943c"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/collision/middle_distal.obj",
+      "bytes": 4395,
+      "sha256": "2055c5f91046d74e978828add959f49e9079e5733c20ec6425210546a799cb5d"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/collision/middle_intermediate.obj",
+      "bytes": 3187,
+      "sha256": "9f2b1fec0dd73778ace88a4c59f17687924f4f8a5239ada5cdea9451de7449dd"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/collision/middle_metacarpal.obj",
+      "bytes": 3195,
+      "sha256": "924a669ea0a6dd3ee8780d023d60393824c13d494b82a243eb346fdc5cee8c33"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/collision/middle_proximal.obj",
+      "bytes": 2328,
+      "sha256": "d74ae2bcb2f41bd318061781ea0ec6827325674381f3b26264abc22f81b5e700"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/collision/ring_distal.obj",
+      "bytes": 4231,
+      "sha256": "1fceecbb1b73f3eb3d6cf81ad0e3db184908c0be35ada4f92fe93cea789d1bc4"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/collision/ring_intermediate.obj",
+      "bytes": 3664,
+      "sha256": "b389d3d14478ef7e03985fcf3b2180af60e3111635446330a84d893304cd796d"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/collision/ring_metacarpal.obj",
+      "bytes": 2441,
+      "sha256": "c582ff7e66c53a05d3ae28a005d15f5b7c6ebd43ff57a31816b280a070ea34c7"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/collision/ring_proximal.obj",
+      "bytes": 2157,
+      "sha256": "e9e2da701b2295aa74cc6917334aa3f640b949f975790a95713f1b82708f0266"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/collision/thumb_distal.obj",
+      "bytes": 3984,
+      "sha256": "c9765c3443d25450b4d4d86768d0041f15aa0f778baa12eb3f94d31cfb950400"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/collision/thumb_metacarpal.obj",
+      "bytes": 3014,
+      "sha256": "981c20c1f88a58ab5446fbc1a2539b2923de1a6441058b59272b41beb0bb881c"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/collision/thumb_proximal.obj",
+      "bytes": 2261,
+      "sha256": "4bb1aab30a3baa99d5237fd18e059410fbe0efb892ea2582c8c9c2bfefcd1d06"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/collision/wrist.obj",
+      "bytes": 6347,
+      "sha256": "5cb918a71cc17c45b1a234de325382fa2bc2a040b47a1dd55b74a0f08728b3ee"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/visual/index_distal.obj",
+      "bytes": 53338,
+      "sha256": "8bd8a765d5a3f44741b05ecfe3fe4c25eb5c6b7595e84747c1b1bf9f7acd105f"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/visual/index_intermediate.obj",
+      "bytes": 36376,
+      "sha256": "9b15d3e469d396a0021ec3649b61507def816d141f57656b6c7de521afb912f7"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/visual/index_metacarpal.obj",
+      "bytes": 52543,
+      "sha256": "cb69ddaec1d0fc2048c5134d4e29d04627041ce5986880032f550c6027ea1383"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/visual/index_proximal.obj",
+      "bytes": 85653,
+      "sha256": "d628215a5ab45696de9cb80072f1bfcd092f99d22959922af8a019c6afc8073b"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/visual/left_hand_hd.skn",
+      "bytes": 899336,
+      "sha256": "d55ec25b28389d9c69cef6204b9fbec37ce6d3852cd9ebb3e80f6ab464f28b44"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/visual/little_distal.obj",
+      "bytes": 56912,
+      "sha256": "ff0bb1347c52155fa6ab798c421ae5a09dae8376c854c7720ec0dab142cacc9a"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/visual/little_intermediate.obj",
+      "bytes": 52193,
+      "sha256": "06d94bed045d04879bc627e65233c6b6c06dae25b90de0f7d0c814dd78f25d0a"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/visual/little_metacarpal.obj",
+      "bytes": 61563,
+      "sha256": "ed386b43b842302208aaa091eaa74053e93e2bcec36631c63dc9d10d894a9b2c"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/visual/little_proximal.obj",
+      "bytes": 52940,
+      "sha256": "c946299773859d1a76ce25f8580ebe1c2881c6fc31fcd1735f8c9024d760bd0b"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/visual/middle_distal.obj",
+      "bytes": 53502,
+      "sha256": "4c3fa797734aa16501cabd00d0cbd969f3f70090bbd44ed79195ba286c791418"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/visual/middle_intermediate.obj",
+      "bytes": 40832,
+      "sha256": "ad47faace361be01740e7d683dc63e15c323576e7f21259d1b54a40e5e98b295"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/visual/middle_metacarpal.obj",
+      "bytes": 37991,
+      "sha256": "80e4252a66384f2081d2b0d2ad258b2a2ca1019f67a000dd01f2d89d2464e02a"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/visual/middle_proximal.obj",
+      "bytes": 66962,
+      "sha256": "59749db714e49c097f5a9c0f9e3520c5a357756caa015830626f8c9564a332cc"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/visual/ring_distal.obj",
+      "bytes": 51220,
+      "sha256": "d63645c4a9c5b0bdbbaf2754652cb971e33cb9e459957a3ab5f7f61aae0b7501"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/visual/ring_intermediate.obj",
+      "bytes": 60683,
+      "sha256": "0d65d925c18d4b55c6f8852a65e0a21156b301f7bd9b518dfb918808cfe6dd9b"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/visual/ring_metacarpal.obj",
+      "bytes": 38373,
+      "sha256": "ab492177d8193a9a280c3d623de9288ce1386eb07fdc7b7fd33adba1e283cb81"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/visual/ring_proximal.obj",
+      "bytes": 55342,
+      "sha256": "c2830037d720da3d61d2e1d1c9f9d6bd778282f3e3ad026c88a461f7e79cdbb0"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/visual/thumb_distal.obj",
+      "bytes": 54514,
+      "sha256": "5f44c268644e26665ec8f989fa5f61f1f0a70c317c227d8d43de7df52d4314a6"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/visual/thumb_metacarpal.obj",
+      "bytes": 59936,
+      "sha256": "fe71bca4f997fc1ca6fcb89b1252947e8244a39e6742b8fb6764c1bad65e31fd"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/visual/thumb_proximal.obj",
+      "bytes": 35277,
+      "sha256": "f906b363fe18974f596ef8b029d09d1b6c1675cb6523e755da3f4c4d3de7dcfc"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/left/visual/wrist.obj",
+      "bytes": 221760,
+      "sha256": "882c733bf5e97ada24d8a8d7e45fa66841b4f44e6a22ed9310c6ac0b99a38e81"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/collision/index_distal.obj",
+      "bytes": 4407,
+      "sha256": "ae15849c0d529d3732e556cba126da3353b1b6c119a69721cf0bcd4d618af619"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/collision/index_intermediate.obj",
+      "bytes": 3181,
+      "sha256": "7369186bfd0f382c8618f1aa9f37c920260899a2d8bb99c0e673a489db05bf0c"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/collision/index_metacarpal.obj",
+      "bytes": 2472,
+      "sha256": "711a12552673adec3a60b34381ab803975204f52e6f3a63de611242d8e5ee8f1"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/collision/index_proximal.obj",
+      "bytes": 2646,
+      "sha256": "19801604a07e823497a78d43e11d4228b30fe48e10826269537388a87cb36b81"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/collision/little_distal.obj",
+      "bytes": 5005,
+      "sha256": "2d3ede56ff856acd2c0893f61a8d53c8a061446ea18146f04746a148c9e45df7"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/collision/little_intermediate.obj",
+      "bytes": 3929,
+      "sha256": "0717c84d766bde1f8221affc89b0f48c6432be8217dd1ec9914ab00fe7f3043d"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/collision/little_metacarpal.obj",
+      "bytes": 3140,
+      "sha256": "1ad7699c9975cafc9c0f730ba4c00bc5285a6aa6e27c2275d413374f60de1985"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/collision/little_proximal.obj",
+      "bytes": 1896,
+      "sha256": "e88146a115d867aa0f467973150baafb27a45004357a586ba4c500ece005beef"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/collision/middle_distal.obj",
+      "bytes": 4473,
+      "sha256": "e150181790fe081f7dc8af64f584a4652d4386958dd857b74fb13c430dc86502"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/collision/middle_intermediate.obj",
+      "bytes": 3176,
+      "sha256": "18dd2f64546712f12ae2875eeeb917e8fb0c17529b5c0f383f1a2fe94db2ab9e"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/collision/middle_metacarpal.obj",
+      "bytes": 3243,
+      "sha256": "551da90c275b54385661bacc653cafe8e4ada8cd60c2d919d487b7b3a2ee08af"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/collision/middle_proximal.obj",
+      "bytes": 2242,
+      "sha256": "d14b87410a9e43857c92f7b331caa15056ab181ca3ffbeff8f3b2d3859dca531"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/collision/ring_distal.obj",
+      "bytes": 4311,
+      "sha256": "d84e2b8497abcfd77b2c19047b605382e1d3651c354b7cbadf030ccd77df0dc8"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/collision/ring_intermediate.obj",
+      "bytes": 3655,
+      "sha256": "db55ac021b22e0a5d4da90e45214213abd032a6857e1c303766e6b116f725170"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/collision/ring_metacarpal.obj",
+      "bytes": 2476,
+      "sha256": "f827d369ccc9629ce3cf26fdb6502ca52e10be551e0eb306cfdd8ef1e228e1d3"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/collision/ring_proximal.obj",
+      "bytes": 2190,
+      "sha256": "2b58c536d0d535ba55b3a3c07a979a6b930d5306da4d6ad76d08290d384c21f1"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/collision/thumb_distal.obj",
+      "bytes": 4091,
+      "sha256": "484151c704c019b2ff9ac4afdd99df9f382ff4f1eb66b4b8fa167b74871bd64a"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/collision/thumb_metacarpal.obj",
+      "bytes": 3055,
+      "sha256": "7d2661e438a72dcb7688cae2a98795db9550c446ba1c6a5227f397d8e13bfe94"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/collision/thumb_proximal.obj",
+      "bytes": 2298,
+      "sha256": "8d1923c380611f31c07d1c9b4c805908220a63d260bc896a00baf9aedcfc4084"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/collision/wrist.obj",
+      "bytes": 6570,
+      "sha256": "6c1921aa1944049ea68a4c573b4c034d0dc118a0fe2aa62a556ce95f88aa7005"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/visual/index_distal.obj",
+      "bytes": 53948,
+      "sha256": "ff0b1bf2a71ff4be259ed3a746bc9855e03eba97c08f19f1ab9c8e9f5d753608"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/visual/index_intermediate.obj",
+      "bytes": 36818,
+      "sha256": "306dbed3251ba0f31428ee59d7b20ded996ab68e5c1eddd0c112bfce828b6e92"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/visual/index_metacarpal.obj",
+      "bytes": 52809,
+      "sha256": "89b7d1dcddd137e7238293d1cec8ca18149bda492221f8bdec5d9ef556ff451e"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/visual/index_proximal.obj",
+      "bytes": 86704,
+      "sha256": "f4db360f290d59942adc009cab4dc2130fc0ef434a73b7a4ad8bd798b557d04c"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/visual/little_distal.obj",
+      "bytes": 57730,
+      "sha256": "51ad0d35704163959ea7a98a1fac7498aa9d99921c2cde0d32b3594ae5c2b011"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/visual/little_intermediate.obj",
+      "bytes": 52293,
+      "sha256": "4d7ece4a9db3e416f739b022863ba887ca336026fcefe9b0ceb33a0dc2945d05"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/visual/little_metacarpal.obj",
+      "bytes": 63035,
+      "sha256": "e86475e21c134ad9964c6de5d3a31b450ce4707cea563277008953b0d3566201"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/visual/little_proximal.obj",
+      "bytes": 53580,
+      "sha256": "2d9b92ea0407bdb7c2fbff6d05f44802a15329bb23927c6c9436f0bcb2056dd0"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/visual/middle_distal.obj",
+      "bytes": 54288,
+      "sha256": "dc4da4dbfcccda62c4b46032b396cbc673f1381955f92519e1fc026e45e76ef3"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/visual/middle_intermediate.obj",
+      "bytes": 40722,
+      "sha256": "eac8dda7c2f70a007c857c737388528b436de126bd91c5f5e1464a3f8cd8c73a"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/visual/middle_metacarpal.obj",
+      "bytes": 38293,
+      "sha256": "0734788304bda28bc8c5a0e27723047e16cbfe8b236de7c5860af17ef4c7b716"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/visual/middle_proximal.obj",
+      "bytes": 68010,
+      "sha256": "ef847dbfa5158c532cdee40dee0401f5f06b01085daf846290d33889ad04894e"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/visual/right_hand_hd.skn",
+      "bytes": 899312,
+      "sha256": "5a48c5311f699de82233df8f4740e699b1ffe07bd8630c17adb488c5e0f6cf2f"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/visual/ring_distal.obj",
+      "bytes": 52287,
+      "sha256": "0214fc171dea494a2bd7cd4324bdd236cecfbb07c86ab141ccbeb2afd419528a"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/visual/ring_intermediate.obj",
+      "bytes": 60875,
+      "sha256": "fd237c7deb2e7f0015ff1e8eafd9fb19a5182065dc0cef5465a20169d99e3ecc"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/visual/ring_metacarpal.obj",
+      "bytes": 38917,
+      "sha256": "bbeb61793f27e6d8438a0bcc2472f49e455e6a31274b6acd6b128e386c42aedc"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/visual/ring_proximal.obj",
+      "bytes": 56092,
+      "sha256": "0aadf5847cb4e61d201bc09ed5620f7822e9bb7a535d15b9b521a1e54f0da1c9"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/visual/thumb_distal.obj",
+      "bytes": 55503,
+      "sha256": "47106c0813d1d243c9707eb977d1c2b7a241407659d43ec15e83e863dbe7cd4f"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/visual/thumb_metacarpal.obj",
+      "bytes": 60833,
+      "sha256": "f3f7f5486f888524421c210ee5ea395b7b1ce061596f121ebb3d2c12076d9d83"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/visual/thumb_proximal.obj",
+      "bytes": 35315,
+      "sha256": "6e9091430d264787ed74c6b8d512303df4226db6b24ed6e41e3d4c88a4adf28e"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/meshes/right/visual/wrist.obj",
+      "bytes": 191079,
+      "sha256": "043abda5386f5927498654f3bb548d02b709fffcb161674382563008d6dd7dff"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/mujoco/left.xml",
+      "bytes": 32969,
+      "sha256": "55cfe307a8b9e04a35ca28986adfd40f2cda8c3f6f15f7b11350464e93d5166f"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/mujoco/right.xml",
+      "bytes": 33873,
+      "sha256": "1872ad6cec00eaadaf173c14d4b5a1c46096bfe6d44dbda657cfb8727d170a25"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/pinocchio/left.urdf",
+      "bytes": 29329,
+      "sha256": "ca0982e32d388d10e25fea5a93d86bcdc444bb0208fdd23cdb014c13dfcbf51c"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/pinocchio/metadata.yaml",
+      "bytes": 7106,
+      "sha256": "d5db1a575e6b6876b9213f86a5f3d566f4c68c83395e1368e48c7e0ad89b30b2"
+    },
+    {
+      "path": "native/qnbot_hand/resources/hands/dynamic_openxr_skeleton_hand/resources/pinocchio/right.urdf",
+      "bytes": 30629,
+      "sha256": "6765072368fd645b1fc362f12ac0c232d279487e9b7e31f593ad457b5a57379e"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 319,
+      "sha256": "783e0b95dbbb802258734b6b9fe728068c0a755424ba242ec26a1076334f0608"
+    },
+    {
+      "path": "runtime/bin/human_hand_v2_runtime",
+      "bytes": 1124736,
+      "sha256": "74abd07035a1e5a4cca1db4ccc5d8e2ca9eae5dd94fa4a2c73c187a1493b7dcc"
+    },
+    {
+      "path": "runtime/lib/libassimp.so.6",
+      "bytes": 14234032,
+      "sha256": "ed18e9a8529f33b74f13acf9a38baa6e62af2b55ff8f0ad410bd09779194a6f2"
+    },
+    {
+      "path": "runtime/lib/libboost_atomic.so.1.90.0",
+      "bytes": 25752,
+      "sha256": "8c4c379cec1ebd91eab938ccc00c1d2761153322a8c460f3a0a75ce14a27d1ed"
+    },
+    {
+      "path": "runtime/lib/libboost_filesystem.so.1.90.0",
+      "bytes": 203832,
+      "sha256": "8fecda53de00d1f58c81b99b085f7ea9f225da299d61b3c5536f29c5b1adda0c"
+    },
+    {
+      "path": "runtime/lib/libboost_serialization.so.1.90.0",
+      "bytes": 482144,
+      "sha256": "b1f3f37e398eb61548b954592014598463b18def1af9e14ba674b082a3b6f5fe"
+    },
+    {
+      "path": "runtime/lib/libcoal.so",
+      "bytes": 10965496,
+      "sha256": "980c1eb099f9a8a254256dde3c10890596c415934d8747058cb2ff0b84e7352d"
+    },
+    {
+      "path": "runtime/lib/libconsole_bridge.so.1.0",
+      "bytes": 29112,
+      "sha256": "1eac9a33f410e15f35be26784fac4d25829ef53cb857d7ecbe0f9f4c9021d3f1"
+    },
+    {
+      "path": "runtime/lib/liboctomap.so.1.10",
+      "bytes": 487120,
+      "sha256": "d4759ecd347195e6f131df31571983f6b14aa23ba6b722f5f2bef0e44146bbc2"
+    },
+    {
+      "path": "runtime/lib/liboctomath.so.1.10",
+      "bytes": 33512,
+      "sha256": "5bd6923c7b853b4d1fc1f0f5a24e2b8b255011bcd3db7fb8e01c94e2b5b45d1e"
+    },
+    {
+      "path": "runtime/lib/libpinocchio_collision.so",
+      "bytes": 33264,
+      "sha256": "35925bb9bf693538156ac013496b457578246251a18323659f950400c2721328"
+    },
+    {
+      "path": "runtime/lib/libpinocchio_default.so",
+      "bytes": 8721984,
+      "sha256": "64dbb31cdb6efdefef6ede6da81c0a54c03241d32cdadaa3c4dfb13685dd113e"
+    },
+    {
+      "path": "runtime/lib/libpinocchio_parsers.so",
+      "bytes": 1172464,
+      "sha256": "8a04cab1566dcb1563f67e5db4922996b6fc0b8bff14164a2fc5ea742e34eeda"
+    },
+    {
+      "path": "runtime/lib/libqhull_r.so.8.0",
+      "bytes": 531152,
+      "sha256": "e49b9f68b1bffa0192f8ae3ae241e985190b9eba9b7499a8d84e3186f9208b56"
+    },
+    {
+      "path": "runtime/lib/libtinyxml2.so.11",
+      "bytes": 131176,
+      "sha256": "41d5f4e848b494b71dcb62ee2c6aab4839128c9ed3e24a218f1e1865200fcbad"
+    },
+    {
+      "path": "runtime/lib/liburdfdom_model.so.6",
+      "bytes": 223480,
+      "sha256": "60a9181b9f3a502f29d9f5d8cf36c5fc4c6dbc5f6ff917aecf937c2d079dbf42"
+    },
+    {
+      "path": "runtime/lib/liburdfdom_sensor.so.6",
+      "bytes": 47256,
+      "sha256": "f374e98eb78fba5051d6b56828dcf52537f1823591a3f43c6ac3273967359997"
+    },
+    {
+      "path": "runtime/lib/liburdfdom_world.so.6",
+      "bytes": 223680,
+      "sha256": "7bdc946f3e42ac9ad13a28eaa862faa53c7e3515dc489edfad1d1e61ebdfaa8f"
+    },
+    {
+      "path": "runtime/third_party_licenses/Assimp-LICENSE",
+      "bytes": 3791,
+      "sha256": "147874443d242b4e2bae97036e26ec9d6b37f706174c1bd5ecfcc8c1294cef51"
+    },
+    {
+      "path": "runtime/third_party_licenses/Boost-LICENSE",
+      "bytes": 1338,
+      "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566"
+    },
+    {
+      "path": "runtime/third_party_licenses/ConsoleBridge-LICENSE",
+      "bytes": 1459,
+      "sha256": "143077f9f6a8de5a99f78c2c2472801fb53cf240277ef661642f079b9acdfff8"
+    },
+    {
+      "path": "runtime/third_party_licenses/Eigen3-copyright",
+      "bytes": 21189,
+      "sha256": "d86a43829b598ef251601455af9c6a05027aec31f6380266890ea016c7ba5fb7"
+    },
+    {
+      "path": "runtime/third_party_licenses/Octomap-LICENSE",
+      "bytes": 1696,
+      "sha256": "ff698ce70a5ac69ea1088293e294c6d69491a89cf8032504bd67cc05b1cacf73"
+    },
+    {
+      "path": "runtime/third_party_licenses/TinyXML2-LICENSE",
+      "bytes": 808,
+      "sha256": "9332252e9b9e46db8285d4a3f0bf25f139bf1dca6781b956d57f2302efca6432"
+    },
+    {
+      "path": "runtime/third_party_licenses/URDFDOM-LICENSE",
+      "bytes": 1770,
+      "sha256": "294c941b90fa6fe935e31514b1981cba0ebd4c03fff8b4f6079d47ddb46f6756"
+    },
+    {
+      "path": "runtime/third_party_licenses/cmeel-share/doc/qhull/COPYING.txt",
+      "bytes": 1720,
+      "sha256": "106d55c931fd6a84822e5345d900273d059f1c27310d02567ccb313c5d18c55d"
+    },
+    {
+      "path": "runtime/third_party_licenses/cmeel-share/doc/zlib/zlib/LICENSE",
+      "bytes": 1002,
+      "sha256": "e32ff4e00d9d94930537635291da39e7e612703334bf6fde8c7f1686fe8a45a2"
+    },
+    {
+      "path": "runtime/third_party_licenses/cmeel_qhull-8.0.2.1.dist-info/qhull/COPYING.txt",
+      "bytes": 1720,
+      "sha256": "106d55c931fd6a84822e5345d900273d059f1c27310d02567ccb313c5d18c55d"
+    },
+    {
+      "path": "runtime/third_party_licenses/coal-3.0.3.dist-info/LICENSE",
+      "bytes": 1710,
+      "sha256": "3d9defa37eddab9a3dd929839414ef9736ed8045e9cde817e6468fa620f114e8"
+    },
+    {
+      "path": "runtime/third_party_licenses/eigenpy-3.13.0.dist-info/LICENSE",
+      "bytes": 1350,
+      "sha256": "65f3e299c96503a864c13981c254c774299322d29143ac2fd82d754b96b2ec57"
+    },
+    {
+      "path": "runtime/third_party_licenses/libcoal-3.0.3.dist-info/LICENSE",
+      "bytes": 1710,
+      "sha256": "3d9defa37eddab9a3dd929839414ef9736ed8045e9cde817e6468fa620f114e8"
+    },
+    {
+      "path": "runtime/third_party_licenses/libpinocchio-4.1.0.dist-info/LICENSE",
+      "bytes": 1350,
+      "sha256": "65b81e23a8e20d7c9d28239bbe9c9afc8d72dccd18833a4d443f0ed9e71738ce"
+    },
+    {
+      "path": "runtime/third_party_licenses/pin-4.1.0.dist-info/LICENSE",
+      "bytes": 1350,
+      "sha256": "65b81e23a8e20d7c9d28239bbe9c9afc8d72dccd18833a4d443f0ed9e71738ce"
+    },
+    {
+      "path": "runtime/third_party_licenses/yaml-cpp-LICENSE",
+      "bytes": 1061,
+      "sha256": "aa6fcc27be034e41e21dd832f9175bfe694a48491d9e14ff0fa278e19ad14f1b"
+    }
+  ]
+}

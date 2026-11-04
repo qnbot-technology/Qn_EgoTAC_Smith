@@ -1,0 +1,50 @@
+[
+  {
+    "path": "licenses/AprilTag-BSD-2-Clause.txt",
+    "url": "https://raw.githubusercontent.com/AprilRobotics/apriltag/master/LICENSE.md",
+    "sha256": "9b6baf7627d6a4b0f1f79cf72253ddd8ad7ca55a52aa47331c45f2628c910c11"
+  },
+  {
+    "path": "licenses/OpenCV-Apache-2.0.txt",
+    "url": "https://raw.githubusercontent.com/opencv/opencv/4.11.0/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "licenses/OpenCV-contrib-Apache-2.0.txt",
+    "url": "https://raw.githubusercontent.com/opencv/opencv_contrib/4.11.0/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "licenses/HaWoR-README.md",
+    "url": "https://raw.githubusercontent.com/ThunderVVV/HaWoR/main/README.md",
+    "sha256": "d676214a32b02524091356143f098106b39c158a6e31e53f7e6f8cf52141c374",
+    "status": "fetched"
+  },
+  {
+    "path": "licenses/Noto-OFL.txt",
+    "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/LICENSE",
+    "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+    "status": "fetched"
+  },
+  {
+    "path": "licenses/EfficientSAM3-README.md",
+    "url": "https://raw.githubusercontent.com/SimonZeng7108/efficientsam3/bd0936c788fed8d51fa799437f05abd97b401b06/README.md",
+    "sha256": "15edc42114ffc4d73d560c268ffed8a67216296df5a56304554fe1f34dfc6d22"
+  },
+  {
+    "path": "licenses/HaWoR-license.txt",
+    "url": "https://raw.githubusercontent.com/ThunderVVV/HaWoR/main/license.txt",
+    "sha256": "0bb835f5ed7272947a23d92d0e74bbdadcbf0beb9235c0735c32d1310a4bceda",
+    "status": "fetched"
+  },
+  {
+    "path": "licenses/MobileCLIP-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/apple/ml-mobileclip/main/LICENSE",
+    "sha256": "e7b09f708a137b12d14656d05dce036353b426f53eebd215106738a00a0a9357"
+  },
+  {
+    "path": "licenses/EfficientSAM3-Apache-2.0.txt",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  }
+]

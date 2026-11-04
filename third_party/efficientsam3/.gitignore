@@ -1,0 +1,166 @@
+# Ignore common large binary files across the repository
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.tflite
+*.pb
+*.h5
+*.weights
+*.bin
+
+# Archives and compressed datasets
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.gz
+*.bz2
+*.xz
+*.zst
+
+# Images (often large)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.webp
+*.svg
+
+# Video files
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.flv
+*.wmv
+*.m4v
+
+# Audio files
+*.wav
+*.mp3
+*.flac
+*.aac
+*.ogg
+*.m4a
+
+# Array/data containers (can be very large)
+*.npy
+*.npz
+*.mat
+*.pkl
+*.pickle
+*.joblib
+*.parquet
+*.feather
+*.arrow
+*.hdf5
+
+# ML outputs and run artifacts
+runs/
+wandb/
+mlruns/
+lightning_logs/
+checkpoints/
+outputs/
+output/
+weights/
+artifacts/
+events.out.tfevents.*
+
+# Caches and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+*.log
+*.tmp
+*.temp
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.*
+!.env.example
+*.pem
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.iml
+
+# Build/distribution artifacts
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Python caches and test artifacts
+.mypy_cache/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Log directories
+logs/
+
+# Local datasets
+data/
+dataset/
+datasets/
+paper
+
+# Allowlist dataset helper scripts and lists inside data/
+!data/
+data/*
+!data/*.sh
+!data/*.py
+!data/download_lvis.sh
+!data/download_sa_v.sh
+!data/download_lvos.sh
+!data/download_davis.sh
+!data/download_mose.sh
+!data/download_ytvos.sh
+!data/download_sa1b.sh
+!data/download_datacomp.py
+!data/sa-v.txt
+!data/sa-1b.txt
+!data/sa-1b-1p.txt
+!data/sa-1b-10p.txt
+
+
+
+!images
+personal-site/*
+sam3_checkpoints/*
+!sam3
+personal-site
+sam3_checkpoints
+rf20-vl
+research
+rf100-vl
+ICMR2026*.pt
+*.pth
+*.bin
+checkpoints/

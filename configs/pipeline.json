@@ -1,0 +1,11 @@
+{
+  "schema": "qn_ego.pipeline.v1",
+  "humanv2": "third_party/humanv2",
+  "layout": "configs/ball23/layout-23mm-roi-candidate.json",
+  "mount": "configs/ball23/mount.json",
+  "registration": "configs/ball23/registration-template.json",
+  "sam_checkpoint": "weights/sam3/sam3.pt",
+  "hawor_checkpoint": "weights/hawor/checkpoints/hawor.ckpt",
+  "mano_root": "weights/mano",
+  "tactile_baseline": "configs/tactile-baseline.json"
+}

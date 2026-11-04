@@ -1,0 +1,9 @@
+syntax = "proto3";
+package qnbot.glove.v1;
+message Vector3 { double x = 1; double y = 2; double z = 3; }
+message QuaternionXYZW { double x = 1; double y = 2; double z = 3; double w = 4; }
+message Pose { Vector3 position_m = 1; QuaternionXYZW orientation_xyzw = 2; }
+enum HandSide { HAND_SIDE_UNSPECIFIED = 0; HAND_SIDE_LEFT = 1; HAND_SIDE_RIGHT = 2; }
+message FingerPose { string finger_name = 1; Pose pose = 2; }
+message FingerQuality { string finger_name = 1; optional bool raw_valid = 2; optional bool held = 3; }
+message GlovePose { string glove_id = 1; HandSide hand_side = 2; Pose root_pose = 3; repeated string finger_names = 4; repeated FingerPose fingertip_world = 5; repeated FingerPose fingertip_local = 6; repeated FingerQuality finger_quality = 7; repeated string quality_flags = 8; optional string source_frame_id = 9; }

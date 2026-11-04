@@ -1,0 +1,222 @@
+calibration:
+  profile_version: 1
+  modes:
+    basic:
+      stages: [close, open, mcp90]
+    enhanced:
+      stages: [close, open, mcp90, pinch_first, pinch_middle, pinch_ring, pinch_little]
+  stages:
+    - id: close
+      order: 1
+      role: flat_reference
+      gesture_kind: close
+      prompt: 五指自然并拢并保持。
+      prompt_en: Bring all five fingers together naturally and hold the pose.
+      reference_pose: five_close
+      fingers: [thumb, first, middle, ring, little]
+      sample_count: 30
+      weight: 3.0
+    - id: open
+      order: 2
+      role: flat_reference
+      gesture_kind: open
+      prompt: 五指自然张开并保持。
+      prompt_en: Spread all five fingers naturally and hold the pose.
+      reference_pose: open
+      fingers: [thumb, first, middle, ring, little]
+      sample_count: 30
+      weight: 0.5
+    - id: mcp90
+      order: 3
+      role: bent_reference
+      gesture_kind: mcp90
+      prompt: 四指根关节弯曲约 90 度并保持。
+      prompt_en: Bend the four non-thumb fingers about 90 degrees at the knuckles (MCP joints) and hold the pose.
+      reference_pose: mcp90
+      fingers: [first, middle, ring, little]
+      sample_count: 30
+      weight: 4.0
+    - id: pinch_first
+      order: 4
+      role: tip_offset
+      gesture_kind: pinch
+      prompt: 拇指与first对指并保持。
+      prompt_en: Bring the thumb and index finger together and hold the pose.
+      reference_pose: null
+      fingers: []
+      partner_finger: first
+      sample_count: 30
+      weight: 0.0
+    - id: pinch_middle
+      order: 5
+      role: tip_offset
+      gesture_kind: pinch
+      prompt: 拇指与middle对指并保持。
+      prompt_en: Bring the thumb and middle finger together and hold the pose.
+      reference_pose: null
+      fingers: []
+      partner_finger: middle
+      sample_count: 30
+      weight: 0.0
+    - id: pinch_ring
+      order: 6
+      role: tip_offset
+      gesture_kind: pinch
+      prompt: 拇指与ring对指并保持。
+      prompt_en: Bring the thumb and ring finger together and hold the pose.
+      reference_pose: null
+      fingers: []
+      partner_finger: ring
+      sample_count: 30
+      weight: 0.0
+    - id: pinch_little
+      order: 7
+      role: tip_offset
+      gesture_kind: pinch
+      prompt: 拇指与little对指并保持。
+      prompt_en: Bring the thumb and little finger together and hold the pose.
+      reference_pose: null
+      fingers: []
+      partner_finger: little
+      sample_count: 30
+      weight: 0.0
+
+poses:
+  - name: open
+    description: Manually calibrated open pose.
+    joint_angles_rad:
+      thumb_cmc_abduction: -0.3234398782
+      thumb_cmc_opposition: -0.436332313
+      thumb_mcp_abduction: -0.3
+      thumb_mcp_flexion: -0.3490658504
+      thumb_ip_flexion: -0.2617993878
+      index_mcp_abduction: 0.3839724354
+      index_mcp_flexion: -0.0939576496
+      index_pip_flexion: -0.5690068912
+      index_dip_flexion: 0.0609119909
+      middle_mcp_abduction: 0
+      middle_mcp_flexion: -0.1355026343
+      middle_pip_flexion: -0.4196747471
+      middle_dip_flexion: -0.1745329252
+      ring_cmc_cup: 0.0061776431
+      ring_mcp_abduction: -0.2089159115
+      ring_mcp_flexion: -0.2335487982
+      ring_pip_flexion: -0.3777569522
+      ring_dip_flexion: -0.1745329252
+      little_cmc_opposition: 0
+      little_cmc_cup: 0.0000513307
+      little_mcp_abduction: -0.3839724354
+      little_mcp_flexion: -0.1089138441
+      little_pip_flexion: -0.4791368587
+      little_dip_flexion: 0.0078236646
+
+  - name: five_close
+    description: Manually calibrated close pose.
+    joint_angles_rad:
+      # thumb_cmc_abduction: -0.4808394801
+      # thumb_cmc_opposition: -0.2688679713
+      # thumb_mcp_abduction: -0.1338
+      # thumb_mcp_flexion: 0.236928446
+      # thumb_ip_flexion: 0.0576656653
+      # index_mcp_abduction: -0.2165604536
+      # index_mcp_flexion: -0.0939576496
+      # index_pip_flexion: -0.5690068912
+      # index_dip_flexion: 0.0609119909
+      # middle_mcp_abduction: 0
+      # middle_mcp_flexion: -0.1355026343
+      # middle_pip_flexion: -0.4196747471
+      # middle_dip_flexion: -0.1745329252
+      # ring_cmc_cup: 0.0061776431
+      # ring_mcp_abduction: 0.2617993878
+      # ring_mcp_flexion: -0.2335487982
+      # ring_pip_flexion: -0.3777569522
+      # ring_dip_flexion: -0.1745329252
+      # little_cmc_opposition: 0
+      # little_cmc_cup: 0.0000513307
+      # little_mcp_abduction: 0.48
+      # little_mcp_flexion: -0.1089138441
+      # little_pip_flexion: -0.4791368587
+      # little_dip_flexion: 0.0078236646
+
+      thumb_cmc_abduction: -0.6108652382
+      thumb_cmc_opposition: -0.1445132621
+      thumb_mcp_abduction: -0.2751
+      thumb_mcp_flexion: -0.0746128255
+      thumb_ip_flexion: 0.0010719166
+      index_mcp_abduction: -0.2096489497
+      index_mcp_flexion: -0.2617993878
+      index_pip_flexion: -0.5244692341
+      index_dip_flexion: -0.1356855035
+      middle_mcp_abduction: 0.0686961593
+      middle_mcp_flexion: -0.2052982086
+      middle_pip_flexion: -0.4399067092
+      middle_dip_flexion: -0.1216588458
+      ring_cmc_cup: 0
+      ring_mcp_abduction: 0.2617993878
+      ring_mcp_flexion: -0.2596529187
+      ring_pip_flexion: -0.3660338098
+      ring_dip_flexion: -0.1745329252
+      little_cmc_opposition: 0
+      little_cmc_cup: -0.0497441432
+      little_mcp_abduction: 0.4005145359
+      little_mcp_flexion: -0.0290270331
+      little_pip_flexion: -0.6315525718
+      little_dip_flexion: -0.0000683734
+
+
+
+  - name: mcp90
+    description: Manually calibrated MCP 90-degree pose.
+    joint_angles_rad:
+      thumb_cmc_abduction: 0
+      thumb_cmc_opposition: 0
+      thumb_mcp_abduction: 0
+      thumb_mcp_flexion: 0
+      thumb_ip_flexion: 0
+      index_mcp_abduction: 0.2933549406
+      index_mcp_flexion: 1.3867056049
+      index_pip_flexion: -0.5677522574
+      index_dip_flexion: 0.0608047255
+      middle_mcp_abduction: 0
+      middle_mcp_flexion: 1.3302044257
+      middle_pip_flexion: -0.4194717401
+      middle_dip_flexion: -0.1745329252
+      ring_cmc_cup: 0.006204736
+      ring_mcp_abduction: 0.1958259421
+      ring_mcp_flexion: 1.3019538361
+      ring_pip_flexion: -0.3776958115
+      ring_dip_flexion: -0.1745329252
+      little_cmc_opposition: 0
+      little_cmc_cup: 0
+      little_mcp_abduction: 0
+      little_mcp_flexion: 1.4
+      little_pip_flexion: -0.2920671518
+      little_dip_flexion: 0
+
+  - name: mcp90_pip90
+    description: Manually calibrated MCP/PIP 90-degree pose.
+    joint_angles_rad:
+      thumb_cmc_abduction: 0
+      thumb_cmc_opposition: 0
+      thumb_mcp_abduction: 0
+      thumb_mcp_flexion: 0
+      thumb_ip_flexion: 0
+      index_mcp_abduction: -0.0867777704
+      index_mcp_flexion: 1.4
+      index_pip_flexion: 0.8850166171
+      index_dip_flexion: -0.0352556509
+      middle_mcp_abduction: 0
+      middle_mcp_flexion: 1.4
+      middle_pip_flexion: 0.8640577197
+      middle_dip_flexion: -0.1745329252
+      ring_cmc_cup: 0.006204736
+      ring_mcp_abduction: 0.1958259421
+      ring_mcp_flexion: 1.3019538361
+      ring_pip_flexion: 1.0160097259
+      ring_dip_flexion: -0.1745329252
+      little_cmc_opposition: 0
+      little_cmc_cup: 0
+      little_mcp_abduction: 0.1456426675
+      little_mcp_flexion: 1.4
+      little_pip_flexion: 0.9295542741
+      little_dip_flexion: 0

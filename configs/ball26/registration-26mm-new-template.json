@@ -1,0 +1,413 @@
+{
+  "schema": "qn_smith.ball26.per_hand_anchor_registration.v1",
+  "asset_id": "apriltag_emf_ball26",
+  "calibration_id": "mcap-ball26-new-offset-candidate",
+  "matrix_convention": "T_parent_child maps child into parent; column vectors; metres",
+  "layout_sha256": "6e18c257a37736315786eede9f03f212501992cceac6b6f54c0883bce3cb4a15",
+  "mount_sha256": "82b60448a7dee20f1a776c3e9c7dd0fbc6c4bb8f6bae472d7f68dafca0ddf161",
+  "cad_source_sha256": "0c13ae4df29771a85741ec86452754a27f836a781778fcd797abc901ce3ec96a",
+  "selected_axis_config": {
+    "schema": "qn_smith.ball23.electrical_registration.v1",
+    "asset_id": "apriltag_emf_ball23",
+    "applies_to_sides": [
+      "left",
+      "right"
+    ],
+    "T_cad_emf_emf_runtime": [
+      [
+        0,
+        -1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "yaw_degrees": 90,
+    "rotation_origin": "unchanged CAD EMF origin; zero additional translation",
+    "formula": "T_camera_emf_runtime = T_camera_root @ T_root_cad_emf @ T_cad_emf_emf_runtime",
+    "layout_sha256": "6e18c257a37736315786eede9f03f212501992cceac6b6f54c0883bce3cb4a15",
+    "visual_direction_user_selected": true,
+    "user_selection": "2026-10-29: 26mm CAD coil-axis relation; MCAP-only candidate",
+    "visual_evidence": [
+      "yaw-audit-row-0037.jpg",
+      "yaw-audit-row-0149.jpg",
+      "yaw-audit-row-0261.jpg"
+    ],
+    "display_label": "EMF yaw +90 | user-selected | no gap fill",
+    "electrical_axes_verified": false,
+    "status": "user-selected visual direction, not physically measured electrical registration",
+    "solver_to_emf": "identity; unchanged; positions_glove_m = wristPose * skeleton_wrist",
+    "no_global_default_change": true,
+    "training_ready": false
+  },
+  "selected_axis_config_sha256": "7f00de86e004c78a315ab54393b25ebe570f35927fda63cb79487ee1febff775",
+  "registrations": {
+    "left": {
+      "side": "left",
+      "constraint": "tag_face_direction",
+      "anchor_tag_ids": [
+        3
+      ],
+      "local_layout_tag_ids": [
+        3
+      ],
+      "anchor_interpretation": "below one face",
+      "azimuth_midpoint_assumption": false,
+      "full_fixture_cad_binding_verified": false,
+      "cad_yaw_symmetry_preserved": true,
+      "T_root_cad_bottom_registered": [
+        [
+          -1.0,
+          -2.83276944882399e-16,
+          0.0,
+          0.0
+        ],
+        [
+          2.83276944882399e-16,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_cad_bottom_emf_runtime": [
+        [
+          -1.0,
+          -4.316699629964002e-15,
+          -1.255660978420962e-16,
+          -7.709921875176828e-06
+        ],
+        [
+          4.316699629964002e-15,
+          -1.0,
+          -5.5511151231257303e-17,
+          0.009628420688412458
+        ],
+        [
+          -1.25566097842096e-16,
+          -5.55111512312578e-17,
+          1.0,
+          0.007659115824879807
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_root_emf_registered": [
+        [
+          1.0,
+          4.599976574846401e-15,
+          1.2556609784209624e-16,
+          7.7099218751741e-06
+        ],
+        [
+          -4.599976574846401e-15,
+          1.0,
+          5.5511151231257266e-17,
+          -0.009628420688412458
+        ],
+        [
+          -1.25566097842096e-16,
+          -5.55111512312578e-17,
+          1.0,
+          0.007659115824879807
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_root_emf_previous_direction_only": [
+        [
+          1.0,
+          4.599976574846401e-15,
+          1.2556609784209624e-16,
+          -0.009628420688412458
+        ],
+        [
+          -4.599976574846401e-15,
+          1.0,
+          5.5511151231257266e-17,
+          -7.70992187517469e-06
+        ],
+        [
+          -1.25566097842096e-16,
+          -5.55111512312578e-17,
+          1.0,
+          0.007659115824879807
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "relative_cad_anchor_yaw_deg": 90,
+      "coil_anchor_horizontal_alignment_cosine": 0.9920949748847849,
+      "yaw_candidates": [
+        {
+          "relative_yaw_deg": 0,
+          "alignment_cosine": -0.12548928563171438
+        },
+        {
+          "relative_yaw_deg": 90,
+          "alignment_cosine": 0.9920949748847849
+        },
+        {
+          "relative_yaw_deg": 180,
+          "alignment_cosine": 0.12548928563171452
+        },
+        {
+          "relative_yaw_deg": 270,
+          "alignment_cosine": -0.9920949748847849
+        }
+      ],
+      "delta_origin_root_m": [
+        0.009636130610287631,
+        -0.009620710766537283,
+        0.0
+      ],
+      "origin_displacement_m": 0.013616647487244745,
+      "translation_source_frame": "cad_bottom",
+      "axis_rule": {
+        "x": "fingertips; selected visual orientation retained",
+        "y": "left / thumb-side per user",
+        "z": "up"
+      },
+      "formula": "T_camera_emf = T_camera_root @ T_root_cad_bottom_registered @ T_cad_bottom_emf_runtime",
+      "fixed_cad_coil_center": true,
+      "selected_camera_emf_orientation_unchanged": true,
+      "camera_tag_observations_unchanged": true,
+      "electrical_axes_verified": false,
+      "training_ready": false,
+      "user_reported_tag_ids": [
+        3
+      ],
+      "user_mounting_face_confirmed": true,
+      "user_tag_binding_status": "MCAP 26mm physical Tag3 maps to CAD face3",
+      "tag_ids_used_for_registration": true,
+      "independent_fixture_measurement_verified": false,
+      "cad_source_sha256": "0c13ae4df29771a85741ec86452754a27f836a781778fcd797abc901ce3ec96a",
+      "layout_sha256": "6e18c257a37736315786eede9f03f212501992cceac6b6f54c0883bce3cb4a15",
+      "mount_sha256": "82b60448a7dee20f1a776c3e9c7dd0fbc6c4bb8f6bae472d7f68dafca0ddf161"
+    },
+    "right": {
+      "side": "right",
+      "constraint": "tag_face_direction",
+      "anchor_tag_ids": [
+        16
+      ],
+      "local_layout_tag_ids": [
+        3
+      ],
+      "anchor_interpretation": "below one face",
+      "azimuth_midpoint_assumption": false,
+      "full_fixture_cad_binding_verified": false,
+      "cad_yaw_symmetry_preserved": true,
+      "T_root_cad_bottom_registered": [
+        [
+          -1.0,
+          -2.83276944882399e-16,
+          0.0,
+          0.0
+        ],
+        [
+          2.83276944882399e-16,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_cad_bottom_emf_runtime": [
+        [
+          -1.0,
+          -4.316699629964002e-15,
+          -1.255660978420962e-16,
+          -7.709921875176828e-06
+        ],
+        [
+          4.316699629964002e-15,
+          -1.0,
+          -5.5511151231257303e-17,
+          0.009628420688412458
+        ],
+        [
+          -1.25566097842096e-16,
+          -5.55111512312578e-17,
+          1.0,
+          0.007659115824879807
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_root_emf_registered": [
+        [
+          1.0,
+          4.599976574846401e-15,
+          1.2556609784209624e-16,
+          7.7099218751741e-06
+        ],
+        [
+          -4.599976574846401e-15,
+          1.0,
+          5.5511151231257266e-17,
+          -0.009628420688412458
+        ],
+        [
+          -1.25566097842096e-16,
+          -5.55111512312578e-17,
+          1.0,
+          0.007659115824879807
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_root_emf_previous_direction_only": [
+        [
+          1.0,
+          4.599976574846401e-15,
+          1.2556609784209624e-16,
+          -0.009628420688412458
+        ],
+        [
+          -4.599976574846401e-15,
+          1.0,
+          5.5511151231257266e-17,
+          -7.70992187517469e-06
+        ],
+        [
+          -1.25566097842096e-16,
+          -5.55111512312578e-17,
+          1.0,
+          0.007659115824879807
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "relative_cad_anchor_yaw_deg": 90,
+      "coil_anchor_horizontal_alignment_cosine": 0.9920949748847849,
+      "yaw_candidates": [
+        {
+          "relative_yaw_deg": 0,
+          "alignment_cosine": -0.12548928563171438
+        },
+        {
+          "relative_yaw_deg": 90,
+          "alignment_cosine": 0.9920949748847849
+        },
+        {
+          "relative_yaw_deg": 180,
+          "alignment_cosine": 0.12548928563171452
+        },
+        {
+          "relative_yaw_deg": 270,
+          "alignment_cosine": -0.9920949748847849
+        }
+      ],
+      "delta_origin_root_m": [
+        0.009636130610287631,
+        -0.009620710766537283,
+        0.0
+      ],
+      "origin_displacement_m": 0.013616647487244745,
+      "translation_source_frame": "cad_bottom",
+      "axis_rule": {
+        "x": "fingertips; selected visual orientation retained",
+        "y": "left / thumb-side per user",
+        "z": "up"
+      },
+      "formula": "T_camera_emf = T_camera_root @ T_root_cad_bottom_registered @ T_cad_bottom_emf_runtime",
+      "fixed_cad_coil_center": true,
+      "selected_camera_emf_orientation_unchanged": true,
+      "camera_tag_observations_unchanged": true,
+      "electrical_axes_verified": false,
+      "training_ready": false,
+      "user_reported_tag_ids": [
+        16
+      ],
+      "user_mounting_face_confirmed": true,
+      "user_tag_binding_status": "MCAP 26mm temporary binding; right physical tag16 remains CAD face3",
+      "tag_ids_used_for_registration": true,
+      "independent_fixture_measurement_verified": false,
+      "cad_source_sha256": "0c13ae4df29771a85741ec86452754a27f836a781778fcd797abc901ce3ec96a",
+      "layout_sha256": "6e18c257a37736315786eede9f03f212501992cceac6b6f54c0883bce3cb4a15",
+      "mount_sha256": "82b60448a7dee20f1a776c3e9c7dd0fbc6c4bb8f6bae472d7f68dafca0ddf161"
+    }
+  },
+  "user_constraint": "26mm new CAD: tag3/tag16 face relation to bottom and coil center; MCAP temporary right stream starts at 15",
+  "numbered_mounting_user_confirmed": true,
+  "visual_direction_user_selected": true,
+  "display_label": "L Tag3 / R Tag16 | forward coil | no gap fill",
+  "solver_to_emf": "identity; HumanV2 returns positions in original EMF coordinates",
+  "electrical_axes_verified": false,
+  "hardware_sync_verified": false,
+  "right_tag_to_cad_binding_verified": false,
+  "right_tag_binding_status": "user-confirmed physical Tag16 to local face3; temporary MCAP numbering starts 15",
+  "supersedes_mounting_statement": "right below/between Tag14 and Tag15",
+  "default_promoted": false,
+  "training_ready": false,
+  "new_source_registration_status": "inherited mounting candidate; not independently remeasured",
+  "reused_from": {
+    "path": "configs/ball23/registration-template.json",
+    "sha256": "bf29102fb57aa9c917e881f6e0f32d284f2017c51667b4a17034894d492dcef3",
+    "evidence": "same explicit per-hand registration schema; geometry and offset replaced by 26mm CAD"
+  }
+}

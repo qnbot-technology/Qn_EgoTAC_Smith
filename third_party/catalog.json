@@ -1,0 +1,11 @@
+{
+  "schema": "qn_smith.dependencies.v1",
+  "repositories": {
+    "egosmith": {
+      "path": "third_party/egosmith"
+    },
+    "sam3": {
+      "path": "third_party/sam3"
+    }
+  }
+}

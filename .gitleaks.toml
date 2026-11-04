@@ -1,0 +1,7 @@
+title = "Public release secret scanning"
+[extend]
+useDefault = true
+[[allowlists]]
+description = "Exact upstream SAM3 dataset identifier, not an API credential"
+regexTarget = "secret"
+regexes = ['^silver_bdd100k$']

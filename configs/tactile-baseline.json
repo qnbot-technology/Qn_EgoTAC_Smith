@@ -1,0 +1,11 @@
+{
+  "method": "estimated_lower_tail",
+  "quantile": 0.1,
+  "lower_tail_quantile": 0.2,
+  "min_deadband": 3.0,
+  "noise_multiplier": 3.0,
+  "min_samples": 30,
+  "scope": "offline visualization only; per episode and device side",
+  "baseline_confirmed_unloaded": false,
+  "training_ready": false
+}

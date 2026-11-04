@@ -1,0 +1,517 @@
+[
+  {
+    "path": "third_party/humanv2/runtime/bin/human_hand_v2_runtime",
+    "bytes": 1163800,
+    "sha256": "6f54d9d6464e655d33a456fa57b9229e1e7e239c99eda8c01bb22f09d4c0e473"
+  },
+  {
+    "path": "third_party/humanv2/runtime/lib/libconsole_bridge.so.1.0",
+    "bytes": 29112,
+    "sha256": "1eac9a33f410e15f35be26784fac4d25829ef53cb857d7ecbe0f9f4c9021d3f1"
+  },
+  {
+    "path": "third_party/humanv2/runtime/lib/liboctomap.so.1.10",
+    "bytes": 487120,
+    "sha256": "d4759ecd347195e6f131df31571983f6b14aa23ba6b722f5f2bef0e44146bbc2"
+  },
+  {
+    "path": "third_party/humanv2/runtime/lib/libz.so.1",
+    "bytes": 155328,
+    "sha256": "7313829350a34ef160542b435c4a2e7a310448d74e23563144d2e3d40e62dd87"
+  },
+  {
+    "path": "third_party/humanv2/runtime/lib/liburdfdom_sensor.so.4.0",
+    "bytes": 47592,
+    "sha256": "ad3153267231e44a5e28ae2a0b912e2573df0ec4258a0405f99dcc629de37b21"
+  },
+  {
+    "path": "third_party/humanv2/runtime/lib/libboost_filesystem.so.1.89.0",
+    "bytes": 203832,
+    "sha256": "118483171ad5756c8e69b5ae23829f1a9d5c565219d338c146e32a56785aa64b"
+  },
+  {
+    "path": "third_party/humanv2/runtime/lib/libcoal.so",
+    "bytes": 10965920,
+    "sha256": "be1f1989a67dcbd34fbfb790b077aba521fa5f39f71dfae4f4f62188a8f4c2df"
+  },
+  {
+    "path": "third_party/humanv2/runtime/lib/liburdfdom_model.so.4.0",
+    "bytes": 204712,
+    "sha256": "2007fd3e93cb734a7014e399693bf2675b2185ce74653df949f8f1d5ad769d0b"
+  },
+  {
+    "path": "third_party/humanv2/runtime/lib/libpinocchio_default.so.3",
+    "bytes": 6971392,
+    "sha256": "e328225022fd0877bb98f9d7e2538b0ca62e0069352d60f6e4e92929b40078e7"
+  },
+  {
+    "path": "third_party/humanv2/runtime/lib/libtinyxml2.so.10",
+    "bytes": 130528,
+    "sha256": "a39b2ac1c29d4010135ef86a308f4aad146eff83d79eb2b4d7c46e96c42f1461"
+  },
+  {
+    "path": "third_party/humanv2/runtime/lib/libqhull_r.so.8.0",
+    "bytes": 531152,
+    "sha256": "e49b9f68b1bffa0192f8ae3ae241e985190b9eba9b7499a8d84e3186f9208b56"
+  },
+  {
+    "path": "third_party/humanv2/runtime/lib/libpinocchio_collision.so.3",
+    "bytes": 33264,
+    "sha256": "8d3b4e7761afc3389301ea68b5a26b2381a5719add19b39fe23f1e2dcda8fc3a"
+  },
+  {
+    "path": "third_party/humanv2/runtime/lib/liburdfdom_world.so.4.0",
+    "bytes": 204912,
+    "sha256": "1fa1d544e06591692c45df597ec1b47e9618c05c9eda8dd4ebae5600d083ccbe"
+  },
+  {
+    "path": "third_party/humanv2/runtime/lib/liboctomath.so.1.10",
+    "bytes": 33512,
+    "sha256": "5bd6923c7b853b4d1fc1f0f5a24e2b8b255011bcd3db7fb8e01c94e2b5b45d1e"
+  },
+  {
+    "path": "third_party/humanv2/runtime/lib/libboost_serialization.so.1.89.0",
+    "bytes": 482144,
+    "sha256": "b13dd52e7e7d1c7f8f07d971c9d6cbc24a4071bc5626e7f5aea7a5ceb46aa307"
+  },
+  {
+    "path": "third_party/humanv2/runtime/lib/libassimp.so.6",
+    "bytes": 14203184,
+    "sha256": "3e71a15a18416af5135edd24ddc7bb4def559fe6948452d7d5ba1d42f6b42ff8"
+  },
+  {
+    "path": "third_party/humanv2/runtime/lib/libboost_atomic.so.1.89.0",
+    "bytes": 25752,
+    "sha256": "21ac53971e63706d3e3a5033ba14a3c2ea6a823e2ad66c97d7da37f2a5429a23"
+  },
+  {
+    "path": "third_party/humanv2/runtime/lib/libpinocchio_parsers.so.3",
+    "bytes": 946608,
+    "sha256": "cd4d4d6805bcb299e8fa0ae6925e3cfee2cd5d21cf08df3397fea147f21a5d18"
+  },
+  {
+    "path": "runtime/media/bin/ffprobe",
+    "bytes": 198048,
+    "sha256": "91f4faa59628a54055fd334d3992b76c5f1574a38a49c8dfde7f3214a8cc2f2a"
+  },
+  {
+    "path": "runtime/media/bin/ffmpeg",
+    "bytes": 354456,
+    "sha256": "4b4d638b0534263afcefa4797f28f6a1ab94e1b60055a6801638abe38586a898"
+  },
+  {
+    "path": "runtime/media/lib/libva.so.2",
+    "bytes": 247056,
+    "sha256": "3eebbdaa2bb0d7d8ce287fe918bd99671483957a6a1fbf9f5615e392e955ca60"
+  },
+  {
+    "path": "runtime/media/lib/libpcre2-8.so.0",
+    "bytes": 779720,
+    "sha256": "8dde3c051008bbcc03065e9574d7759c97ba90a2189853b10b1bd69031489145"
+  },
+  {
+    "path": "runtime/media/lib/libexpat.so.1",
+    "bytes": 195584,
+    "sha256": "8b61b41a8f5bee8d8d336e8bc5318233d6b435d482a7510f4e01788b618a6598"
+  },
+  {
+    "path": "runtime/media/lib/libfribidi.so.0",
+    "bytes": 135144,
+    "sha256": "a33ab9cb2de0ab1889d0ab53c95b720825ec13857558eab67d30bc9a9b1fa2f1"
+  },
+  {
+    "path": "runtime/media/lib/libva-x11.so.2",
+    "bytes": 27952,
+    "sha256": "c72db4bdfcde78b066c5cf08a00f0a0779406796010558b0d3bced1ef1441d6f"
+  },
+  {
+    "path": "runtime/media/lib/libavfilter.so.10",
+    "bytes": 5171352,
+    "sha256": "a3feb06305a7605aea2b48150df80b5f9be2141104c96a7defafed10a46e9b42"
+  },
+  {
+    "path": "runtime/media/lib/libXdmcp.so.6",
+    "bytes": 30144,
+    "sha256": "dcdabcb94e17c6b1057a751e43574882ba44bf9b0fa0ff0e75dbf7b30f9e3b63"
+  },
+  {
+    "path": "runtime/media/lib/libx265.so.199",
+    "bytes": 23165472,
+    "sha256": "9ed0d2ab24a8c17e55f3bb1ca83ebef7631dadd05b61ab12db1af08c8984a34f"
+  },
+  {
+    "path": "runtime/media/lib/libsystemd.so.0",
+    "bytes": 1546456,
+    "sha256": "3fece544e23ef533171630ec9ed917201b8e2ef72093002cb7b7ecbb2a8cecb6"
+  },
+  {
+    "path": "runtime/media/lib/libpostproc.so.58",
+    "bytes": 83856,
+    "sha256": "50c1b88fc8cc0c3e0870fedb4e8fa0e974660c04ed3391db2723760d4d9b93b3"
+  },
+  {
+    "path": "runtime/media/lib/libmp3lame.so.0",
+    "bytes": 328552,
+    "sha256": "ee71cd2b3a432a27d688117984acc673fe9d397812789daf4ffbbf8622aabd6f"
+  },
+  {
+    "path": "runtime/media/lib/libstdc++.so.6",
+    "bytes": 23874544,
+    "sha256": "10f0d3c46c070acd4abea2ccf2500ff0ec77e9b90154b82ea2720dba05510cb9"
+  },
+  {
+    "path": "runtime/media/lib/libxcb-dri3.so.0",
+    "bytes": 27688,
+    "sha256": "eeae4c0815883ebb451dae3d48dde1ee2cecfa30a187b0a95531f37ad9823f0d"
+  },
+  {
+    "path": "runtime/media/lib/libz.so.1",
+    "bytes": 117168,
+    "sha256": "3c6fd78e248a60e45081bcc77031204a7cb64a88ff2e27fc786ef12ae7e91fca"
+  },
+  {
+    "path": "runtime/media/lib/libdav1d.so.6",
+    "bytes": 2626568,
+    "sha256": "a038bbe046d0b2c1188432d0e3c454f2c665cb247d657a79e2ffb1c0d456f493"
+  },
+  {
+    "path": "runtime/media/lib/libswresample.so.5",
+    "bytes": 120720,
+    "sha256": "6f5cc97f30ce3eceba1850bfe488a587363a5200d54cbcb131c24a1464407af4"
+  },
+  {
+    "path": "runtime/media/lib/libopenh264.so.8",
+    "bytes": 1380472,
+    "sha256": "643daea4304dc1f99bca845204c0956df584b103bd42afa8b0b2cd5486f39f4a"
+  },
+  {
+    "path": "runtime/media/lib/libopus.so.0",
+    "bytes": 532392,
+    "sha256": "292ff7b84cdb39dc5fc217801ea9cd8209b677461d97871794d0c938a7f106fb"
+  },
+  {
+    "path": "runtime/media/lib/libgmodule-2.0.so.0",
+    "bytes": 25960,
+    "sha256": "44919eadefb75449fd97e3d47e36e473d417410b98740e3488829ee881bc954f"
+  },
+  {
+    "path": "runtime/media/lib/libcairo-gobject.so.2",
+    "bytes": 49056,
+    "sha256": "5fe9662c157b431d7096310fa80fec5724fbff3e112ad768c734fb0295a40b26"
+  },
+  {
+    "path": "runtime/media/lib/libpango-1.0.so.0",
+    "bytes": 527272,
+    "sha256": "de96c92bddb1e88e8d3d704694223082987c154ccaf0aeb387ac7ef2465e2816"
+  },
+  {
+    "path": "runtime/media/lib/libcrypto.so.3",
+    "bytes": 7252896,
+    "sha256": "c39fe916627fc58296d24870e7721c83835b7e1373f2ca8588799447258d9609"
+  },
+  {
+    "path": "runtime/media/lib/libgobject-2.0.so.0",
+    "bytes": 483624,
+    "sha256": "5502bb575b6c83f2b8ac02b2ec217a43d956a844d2afc45414e8e7ecf120606d"
+  },
+  {
+    "path": "runtime/media/lib/libvpx.so.9",
+    "bytes": 2213864,
+    "sha256": "fe845d06808f1c32f1a4ae28ee03217e3866e4c7727060559311e19a98b543b0"
+  },
+  {
+    "path": "runtime/media/lib/libSDL3.so.0",
+    "bytes": 3944872,
+    "sha256": "73d0b370b9bf0b69ea8dd1aac5c6feb74b540a3cfe46bebae4d1d07f62bd9dcc"
+  },
+  {
+    "path": "runtime/media/lib/libdrm.so.2",
+    "bytes": 110680,
+    "sha256": "79478753f163ce9757714c791bd2740dc59d6ed26222b629cc9c17910bdac18f"
+  },
+  {
+    "path": "runtime/media/lib/libbz2.so.1.0",
+    "bytes": 241912,
+    "sha256": "89167cfb36a81306dcf8f439436f46dda12f0bbf4877b9f87abfd079bf765c46"
+  },
+  {
+    "path": "runtime/media/lib/libxcb.so.1",
+    "bytes": 228648,
+    "sha256": "504faa0ca490d23e89505bb430892f18992979a7856869e776ae711fcaab79d7"
+  },
+  {
+    "path": "runtime/media/lib/libasound.so.2",
+    "bytes": 1262672,
+    "sha256": "2321a91a9ae82dcb2047218b3b1ea4f02841d371e223e0fa770d46f8c3920cce"
+  },
+  {
+    "path": "runtime/media/lib/libXfixes.so.3",
+    "bytes": 34720,
+    "sha256": "c9576da345aec0b06ac54bb2589d001234d9993e6ffee13c239ceff27410e33c"
+  },
+  {
+    "path": "runtime/media/lib/libdbus-1.so.3",
+    "bytes": 418512,
+    "sha256": "c069723137911c0640b560bf8ede3754ec7bbbe869d8a1dc2fc85d8b37cd73f8"
+  },
+  {
+    "path": "runtime/media/lib/libsndfile.so.1",
+    "bytes": 654632,
+    "sha256": "35319a89bdb61dc4f1382aa2002d4d0354e36d5411dfc2feff7ac3e30aabbabe"
+  },
+  {
+    "path": "runtime/media/lib/libSDL2-2.0.so.0",
+    "bytes": 617512,
+    "sha256": "3db87ac0a6136c9760e4a20cf4199713e54aefd827521620d5b034a995996e81"
+  },
+  {
+    "path": "runtime/media/lib/libpugixml.so.1",
+    "bytes": 302072,
+    "sha256": "d3b9c0e466e3d4953c58681edce0decec37415b6cdb0375cd6fcae7a473963fc"
+  },
+  {
+    "path": "runtime/media/lib/libSvtAv1Enc.so.3",
+    "bytes": 8038224,
+    "sha256": "3021da8cdbee51a731e22216fb43c317dd170b08e174e6aeb084766c9accbaf3"
+  },
+  {
+    "path": "runtime/media/lib/libogg.so.0",
+    "bytes": 43296,
+    "sha256": "08b506c497477bd49dbf9866e2ff4d69b71df8fcc6dbd88553b9dcd2ddd21e84"
+  },
+  {
+    "path": "runtime/media/lib/libpng16.so.16",
+    "bytes": 280280,
+    "sha256": "c98b248979695d9d3b0d7d8d0b6ed25bc3013a2d479e4324e85886ee80f78708"
+  },
+  {
+    "path": "runtime/media/lib/libavutil.so.59",
+    "bytes": 1058744,
+    "sha256": "dceae3858c416fba8147e1b085edeaff64e52d3e02a2ee96d6b29459ab7466cf"
+  },
+  {
+    "path": "runtime/media/lib/libfontconfig.so.1",
+    "bytes": 529024,
+    "sha256": "a9e0cd67349db7a969ac1e6ba281aacf2300d80bb2ede4f7e47b3e65a6adb75d"
+  },
+  {
+    "path": "runtime/media/lib/libglib-2.0.so.0",
+    "bytes": 1573008,
+    "sha256": "2e974fa8b6bc6ab59f6ec2e6875e07eb34abb5a6a79b167f055bb1c5c6072af3"
+  },
+  {
+    "path": "runtime/media/lib/liblzma.so.5",
+    "bytes": 222712,
+    "sha256": "491c01c02da5a22f5825a7c05a561e175aa70c203d5e462dfe90b5040dbdaf50"
+  },
+  {
+    "path": "runtime/media/lib/libx264.so.164",
+    "bytes": 2090992,
+    "sha256": "d794f4d94dcb51d2facca4073ab1f881ff7212f44e05eaef994beef05764d5b6"
+  },
+  {
+    "path": "runtime/media/lib/libXext.so.6",
+    "bytes": 96344,
+    "sha256": "c7fda8b9d4a5a444a0b5f8279754867c5a8df34305b7ffc0c08c630598573707"
+  },
+  {
+    "path": "runtime/media/lib/libopenvino_c.so.2500",
+    "bytes": 354712,
+    "sha256": "41c2209280f93c3a1145b461daa45d7089c8d44f5c27dd701db0940c87ea4284"
+  },
+  {
+    "path": "runtime/media/lib/libvorbis.so.0.4.9",
+    "bytes": 262176,
+    "sha256": "5500057820cc76bc22ad3d77cc82bb6efe61cad0034eb43d92e26313f9762102"
+  },
+  {
+    "path": "runtime/media/lib/libva-drm.so.2",
+    "bytes": 16688,
+    "sha256": "459f7a07f92d24799c11a22735d7d5346255910855f3822cc38772e60f32e05f"
+  },
+  {
+    "path": "runtime/media/lib/libX11.so.6",
+    "bytes": 1476144,
+    "sha256": "c6cc7595eb9acb21d801685ed51d5e7b49e5acb04b1e9c78d09cb119fe2c12fe"
+  },
+  {
+    "path": "runtime/media/lib/libopenvino.so.2500",
+    "bytes": 21613072,
+    "sha256": "318891717e7b277c57e6e8afa8426c2167f5e22496e596d3bdf3405c72bfc509"
+  },
+  {
+    "path": "runtime/media/lib/libfreetype.so.6",
+    "bytes": 874488,
+    "sha256": "f3883f46a19a8b0705352aba6ebdc3bbfe45bb8145ce38f18bbb366f5eac8979"
+  },
+  {
+    "path": "runtime/media/lib/librsvg-2.so.2",
+    "bytes": 11745056,
+    "sha256": "13453c05f9cd5a3a1a0fd65516746483579e8d8e38a9fde7d4853773846f565d"
+  },
+  {
+    "path": "runtime/media/lib/libavcodec.so.61",
+    "bytes": 16358184,
+    "sha256": "8441565da2116e80bdd972536b7c3244ca14ba285eaf00c298622447dbaa073f"
+  },
+  {
+    "path": "runtime/media/lib/libpangocairo-1.0.so.0",
+    "bytes": 80112,
+    "sha256": "cdaff3138e2972585141cbd342884b5f88552897d6582bc3ef2fae0df3da9815"
+  },
+  {
+    "path": "runtime/media/lib/libgio-2.0.so.0",
+    "bytes": 2412760,
+    "sha256": "ec1c9cb97877f891482796e9ed9648bd17392b2c15b104ea24733b2614d1075e"
+  },
+  {
+    "path": "runtime/media/lib/libcairo.so.2",
+    "bytes": 1275800,
+    "sha256": "f923cd3041e32b22150f47bc61ffd61f81d0dc38903db43ce68a66468375e91b"
+  },
+  {
+    "path": "runtime/media/lib/libXau.so.6",
+    "bytes": 17144,
+    "sha256": "dcc7de4960c165b97b5faa8b3bdeb4dfc2439b5066f1f9b2f2e3aca9478267ff"
+  },
+  {
+    "path": "runtime/media/lib/libicuuc.so.75",
+    "bytes": 2585632,
+    "sha256": "c9a25b3248c0b20fe3e2bf10042fba72009eed6d72422dca53c8ac169ca65d1b"
+  },
+  {
+    "path": "runtime/media/lib/libavformat.so.61",
+    "bytes": 2815888,
+    "sha256": "54e95e42049a8a805c1066a24f94c30e091b48e151e0e5a4aaca8d4651133757"
+  },
+  {
+    "path": "runtime/media/lib/libmpg123.so.0",
+    "bytes": 419664,
+    "sha256": "38fceb966939256c6d816c44a7ecd34ee89f83576c03ffef1292610cafb67a53"
+  },
+  {
+    "path": "runtime/media/lib/libgraphite2.so.3",
+    "bytes": 179728,
+    "sha256": "7518f9ab847d9a1d0506db3d91017faf5e5ff5aaf08610de77533a3603d1698c"
+  },
+  {
+    "path": "runtime/media/lib/libavdevice.so.61",
+    "bytes": 112528,
+    "sha256": "787e7749daab8a33accd94220b000d46e8dcf6d6ff0c3e56a2ecd8e6c10cf08c"
+  },
+  {
+    "path": "runtime/media/lib/libX11-xcb.so.1",
+    "bytes": 14992,
+    "sha256": "c89b4356a5ea9832e4e9542e4fab5aa729a81f8cfec36663666d66ba34cdc805"
+  },
+  {
+    "path": "runtime/media/lib/libpulse.so.0",
+    "bytes": 270416,
+    "sha256": "26c78528b2e6dba54556763c8df4c6c8059f7a88e50479a1866655ffc82271a0"
+  },
+  {
+    "path": "runtime/media/lib/libxcb-render.so.0",
+    "bytes": 76720,
+    "sha256": "57034504da09555b43b045fdf0d3ce9285db9eaabe01a24877ec5515290d3a26"
+  },
+  {
+    "path": "runtime/media/lib/libswscale.so.8",
+    "bytes": 616336,
+    "sha256": "a0a20eb440990600ff62b55598586f71a2958cfc060461a8ea07ce39763e4994"
+  },
+  {
+    "path": "runtime/media/lib/libgdk_pixbuf-2.0.so.0",
+    "bytes": 225952,
+    "sha256": "150462e32badbb61424fab8a3e295d42340ddbcd1a5dd4eb7f1c69cab7828401"
+  },
+  {
+    "path": "runtime/media/lib/libpixman-1.so.0",
+    "bytes": 876400,
+    "sha256": "4890354bfa7117959cd69bfb04823f940053eb5d56a8bfbbe230c7d1c521e8a7"
+  },
+  {
+    "path": "runtime/media/lib/libiconv.so.2",
+    "bytes": 1182640,
+    "sha256": "59b942b8a9dfabcfec7d65ff2be1de2e59902765837768ca37468cef5dca9571"
+  },
+  {
+    "path": "runtime/media/lib/libxcb-shm.so.0",
+    "bytes": 17096,
+    "sha256": "d560624e0f4a720eb68179b90c37bb0d5939cefecd2ef7c1aaaeae38ea3fe890"
+  },
+  {
+    "path": "runtime/media/lib/libass.so.9",
+    "bytes": 294800,
+    "sha256": "6a21295ee5457866ad8bb1eb7e908c9911e02ffb4fe2987cb97556e097677a89"
+  },
+  {
+    "path": "runtime/media/lib/libjpeg.so.8",
+    "bytes": 913736,
+    "sha256": "27d5bc7b9c9674cc073e71e899e7d5f6dedf86f0ad4d93947f60aaee2c2b25c8"
+  },
+  {
+    "path": "runtime/media/lib/libffi.so.8",
+    "bytes": 50744,
+    "sha256": "cff0ea6932fe2986f3a33410d2008692cc93caecfde282a2b2a961f7963a13df"
+  },
+  {
+    "path": "runtime/media/lib/libicudata.so.75",
+    "bytes": 30741448,
+    "sha256": "e065d9cbce8450291e1e8f9125f9a115a07b0181728217b7bf4e3db65c60a322"
+  },
+  {
+    "path": "runtime/media/lib/libssl.so.3",
+    "bytes": 1228008,
+    "sha256": "9f9fc1f5ab856181716b7dff697daf16aa5b0f47f7add572c491ac31a10ef8f4"
+  },
+  {
+    "path": "runtime/media/lib/libxml2.so.2",
+    "bytes": 1598072,
+    "sha256": "380da0c4cc7c17194eb8c1f741ee069b75a503eb83d764f58afe037c89539e93"
+  },
+  {
+    "path": "runtime/media/lib/libvorbisenc.so.2.0.12",
+    "bytes": 806984,
+    "sha256": "dfa22b6882c4c0a67cb7c88220c9b8c5e03d452ef9c74cfb7cf322811cc06d7e"
+  },
+  {
+    "path": "runtime/media/lib/libaom.so.3",
+    "bytes": 7632336,
+    "sha256": "691b31194c942398cb63df59608a2ebfcf55a8c7bcefab5540f86e4a7bbceb51"
+  },
+  {
+    "path": "runtime/media/lib/libFLAC.so.14",
+    "bytes": 468352,
+    "sha256": "05967605474884635225cd07beef63dec9b3ccd55936f9fb9719519acb3d0452"
+  },
+  {
+    "path": "runtime/media/lib/libpangoft2-1.0.so.0",
+    "bytes": 140296,
+    "sha256": "b0a3fa677471f82add8a790e339e263fa3ea0c04764a27ccb26143ab4e9ed960"
+  },
+  {
+    "path": "runtime/media/lib/libharfbuzz.so.0",
+    "bytes": 1574520,
+    "sha256": "e0484e5e4c2244961ecd502cfe62337060c1e41c710fef93c39edcf0384d3b14"
+  },
+  {
+    "path": "runtime/media/lib/libgcc_s.so.1",
+    "bytes": 922624,
+    "sha256": "5444fbe71e8cfe3bd05cdf2b44bd8c2e553e6e7e276977089b5e4e1a1ceed531"
+  },
+  {
+    "path": "runtime/media/lib/libtbb.so.12",
+    "bytes": 389792,
+    "sha256": "4f266c979da1fb906e1d6dab905e70d225009193d5d8d1cb207e76b4af9d71d8"
+  },
+  {
+    "path": "runtime/media/lib/pulseaudio/libpulsecommon-17.0.so",
+    "bytes": 447416,
+    "sha256": "b4b67ccf34a534a1fbf030a52e0f8af9cf25c6343246833f287a27cfb0e59d69"
+  },
+  {
+    "path": "assets/fonts/NotoSansCJK-Regular.ttc",
+    "bytes": 19484784,
+    "sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a"
+  }
+]
